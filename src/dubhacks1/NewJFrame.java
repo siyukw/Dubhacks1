@@ -240,6 +240,26 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel87 = new javax.swing.JLabel();
+        fProfile = new javax.swing.JFrame();
+        jPanel23 = new javax.swing.JPanel();
+        jPanel24 = new javax.swing.JPanel();
+        jLabel80 = new javax.swing.JLabel();
+        jButton45 = new javax.swing.JButton();
+        jButton46 = new javax.swing.JButton();
+        jButton47 = new javax.swing.JButton();
+        jLabel81 = new javax.swing.JLabel();
+        requestername1 = new javax.swing.JLabel();
+        jLabel82 = new javax.swing.JLabel();
+        genderfhN1 = new javax.swing.JLabel();
+        jLabel83 = new javax.swing.JLabel();
+        jComboBox12 = new javax.swing.JComboBox<>();
+        jComboBox13 = new javax.swing.JComboBox<>();
+        jComboBox14 = new javax.swing.JComboBox<>();
+        jLabel84 = new javax.swing.JLabel();
+        jLabel85 = new javax.swing.JLabel();
+        jLabel86 = new javax.swing.JLabel();
         jButton21 = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 204));
@@ -252,23 +272,26 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(t1);
-        t1.setBounds(320, 170, 230, 20);
+        t1.setBounds(320, 170, 230, 30);
         jPanel1.add(p1);
-        p1.setBounds(320, 230, 230, 22);
+        p1.setBounds(320, 230, 230, 30);
 
+        jLabel1.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jLabel1.setText("Username:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(210, 170, 90, 16);
+        jLabel1.setBounds(210, 180, 90, 16);
 
+        jLabel2.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jLabel2.setText("Password:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(210, 240, 80, 16);
+        jLabel2.setBounds(210, 240, 80, 22);
 
-        jLabel3.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("AR CENA", 1, 48)); // NOI18N
         jLabel3.setText("Up for Grabs");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(280, 90, 210, 40);
+        jLabel3.setBounds(270, 90, 280, 40);
 
+        jButton1.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton1.setText("Create Account");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -278,6 +301,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel1.add(jButton1);
         jButton1.setBounds(70, 400, 140, 40);
 
+        jButton2.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton2.setText("Login");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -285,7 +309,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton2);
-        jButton2.setBounds(580, 410, 160, 40);
+        jButton2.setBounds(580, 400, 160, 40);
 
         javax.swing.GroupLayout f1Layout = new javax.swing.GroupLayout(f1.getContentPane());
         f1.getContentPane().setLayout(f1Layout);
@@ -307,30 +331,35 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 204));
         jPanel2.setLayout(null);
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("AR CENA", 1, 48)); // NOI18N
         jLabel4.setText("Create Account");
         jPanel2.add(jLabel4);
-        jLabel4.setBounds(330, 40, 120, 50);
+        jLabel4.setBounds(230, 30, 330, 50);
 
+        jLabel5.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jLabel5.setText("Name");
         jPanel2.add(jLabel5);
-        jLabel5.setBounds(90, 100, 33, 16);
+        jLabel5.setBounds(90, 100, 40, 22);
 
+        jLabel6.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jLabel6.setText("Birthday");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(90, 140, 70, 16);
+        jLabel6.setBounds(90, 140, 70, 22);
 
-        jLabel7.setText("Gender(M/F/O)");
+        jLabel7.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
+        jLabel7.setText("Gender ");
         jPanel2.add(jLabel7);
-        jLabel7.setBounds(440, 130, 110, 30);
+        jLabel7.setBounds(480, 140, 110, 30);
 
+        jLabel8.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jLabel8.setText("Phone Number");
         jPanel2.add(jLabel8);
-        jLabel8.setBounds(90, 180, 110, 16);
+        jLabel8.setBounds(90, 180, 110, 22);
 
+        jLabel9.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jLabel9.setText("Brief Description");
         jPanel2.add(jLabel9);
-        jLabel9.setBounds(90, 210, 120, 16);
+        jLabel9.setBounds(90, 220, 120, 22);
 
         jTextField1.setText(" ");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -339,23 +368,25 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField1);
-        jTextField1.setBounds(140, 100, 570, 22);
+        jTextField1.setBounds(160, 100, 550, 22);
 
         jTextField4.setText(" ");
         jPanel2.add(jTextField4);
-        jTextField4.setBounds(190, 180, 520, 22);
+        jTextField4.setBounds(210, 180, 500, 22);
 
         jTextField5.setText(" ");
         jPanel2.add(jTextField5);
-        jTextField5.setBounds(190, 220, 520, 170);
+        jTextField5.setBounds(210, 220, 500, 170);
 
+        jButton3.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton3.setText("Cancel");
         jPanel2.add(jButton3);
-        jButton3.setBounds(90, 420, 71, 25);
+        jButton3.setBounds(90, 420, 110, 30);
 
+        jButton4.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton4.setText("Create my Account");
         jPanel2.add(jButton4);
-        jButton4.setBounds(580, 420, 160, 25);
+        jButton4.setBounds(560, 420, 180, 30);
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Others" }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
@@ -368,7 +399,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
         jPanel2.add(jComboBox3);
-        jComboBox3.setBounds(150, 140, 50, 22);
+        jComboBox3.setBounds(160, 140, 50, 22);
 
         jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
         jPanel2.add(jComboBox4);
@@ -408,7 +439,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel10.setText(" ");
         jPanel4.add(jLabel10);
-        jLabel10.setBounds(10, 190, 130, 40);
+        jLabel10.setBounds(20, 220, 130, 40);
 
         jPanel3.add(jPanel4);
         jPanel4.setBounds(340, 60, 170, 310);
@@ -434,7 +465,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel16.setText(" ");
         jPanel6.add(jLabel16);
-        jLabel16.setBounds(0, 190, 130, 40);
+        jLabel16.setBounds(20, 240, 130, 40);
 
         jPanel3.add(jPanel6);
         jPanel6.setBounds(130, 60, 180, 310);
@@ -1228,7 +1259,7 @@ public class NewJFrame extends javax.swing.JFrame {
         );
 
         jPanel21.add(jPanel22);
-        jPanel22.setBounds(160, 50, 190, 180);
+        jPanel22.setBounds(160, 70, 190, 180);
 
         jButton33.setText("Home");
         jPanel21.add(jButton33);
@@ -1244,19 +1275,19 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel71.setText("Name:");
         jPanel21.add(jLabel71);
-        jLabel71.setBounds(390, 60, 38, 16);
+        jLabel71.setBounds(390, 80, 38, 16);
 
         requestername.setText(" ");
         jPanel21.add(requestername);
-        requestername.setBounds(450, 50, 250, 30);
+        requestername.setBounds(450, 90, 250, 30);
 
         jLabel72.setText("Gender:");
         jPanel21.add(jLabel72);
-        jLabel72.setBounds(390, 140, 46, 16);
+        jLabel72.setBounds(390, 160, 46, 16);
 
         genderfhN.setText(" ");
         jPanel21.add(genderfhN);
-        genderfhN.setBounds(460, 140, 190, 50);
+        genderfhN.setBounds(460, 160, 190, 50);
 
         jButton5.setText("Come and Grab A Bite!");
         jPanel21.add(jButton5);
@@ -1268,19 +1299,19 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel73.setText("Birthday:");
         jPanel21.add(jLabel73);
-        jLabel73.setBounds(390, 210, 70, 16);
+        jLabel73.setBounds(390, 230, 70, 16);
 
         jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
         jPanel21.add(jComboBox9);
-        jComboBox9.setBounds(460, 210, 50, 22);
+        jComboBox9.setBounds(460, 230, 50, 22);
 
         jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
         jPanel21.add(jComboBox10);
-        jComboBox10.setBounds(530, 210, 41, 22);
+        jComboBox10.setBounds(530, 230, 41, 22);
 
         jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" }));
         jPanel21.add(jComboBox11);
-        jComboBox11.setBounds(590, 210, 80, 22);
+        jComboBox11.setBounds(590, 230, 80, 22);
 
         jLabel74.setText("Bio:");
         jPanel21.add(jLabel74);
@@ -1302,6 +1333,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel21.add(jLabel78);
         jLabel78.setBounds(448, 310, 150, 20);
 
+        jLabel79.setText(" ");
+        jPanel21.add(jLabel79);
+        jLabel79.setBounds(590, 310, 150, 60);
+
+        jLabel87.setFont(new java.awt.Font("AR CENA", 1, 18)); // NOI18N
+        jLabel87.setText("This Person Wants to Grab A Bite!");
+        jPanel21.add(jLabel87);
+        jLabel87.setBounds(250, 30, 370, 50);
+
         javax.swing.GroupLayout fhNLayout = new javax.swing.GroupLayout(fhN.getContentPane());
         fhN.getContentPane().setLayout(fhNLayout);
         fhNLayout.setHorizontalGroup(
@@ -1311,6 +1351,99 @@ public class NewJFrame extends javax.swing.JFrame {
         fhNLayout.setVerticalGroup(
             fhNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel21, javax.swing.GroupLayout.DEFAULT_SIZE, 509, Short.MAX_VALUE)
+        );
+
+        jPanel23.setBackground(new java.awt.Color(255, 255, 204));
+        jPanel23.setLayout(null);
+
+        jLabel80.setText(" ");
+
+        javax.swing.GroupLayout jPanel24Layout = new javax.swing.GroupLayout(jPanel24);
+        jPanel24.setLayout(jPanel24Layout);
+        jPanel24Layout.setHorizontalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel80, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel24Layout.setVerticalGroup(
+            jPanel24Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel24Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel80, javax.swing.GroupLayout.DEFAULT_SIZE, 154, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jPanel23.add(jPanel24);
+        jPanel24.setBounds(160, 80, 190, 180);
+
+        jButton45.setText("Home");
+        jPanel23.add(jButton45);
+        jButton45.setBounds(10, 70, 100, 80);
+
+        jButton46.setText("Notification");
+        jPanel23.add(jButton46);
+        jButton46.setBounds(10, 160, 100, 80);
+
+        jButton47.setText("Account");
+        jPanel23.add(jButton47);
+        jButton47.setBounds(10, 250, 100, 80);
+
+        jLabel81.setText("Name:");
+        jPanel23.add(jLabel81);
+        jLabel81.setBounds(390, 90, 38, 16);
+
+        requestername1.setText(" ");
+        jPanel23.add(requestername1);
+        requestername1.setBounds(440, 100, 250, 30);
+
+        jLabel82.setText("Gender:");
+        jPanel23.add(jLabel82);
+        jLabel82.setBounds(390, 140, 46, 16);
+
+        genderfhN1.setText(" ");
+        jPanel23.add(genderfhN1);
+        genderfhN1.setBounds(450, 140, 190, 50);
+
+        jLabel83.setText("Birthday:");
+        jPanel23.add(jLabel83);
+        jLabel83.setBounds(390, 240, 70, 16);
+
+        jComboBox12.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
+        jPanel23.add(jComboBox12);
+        jComboBox12.setBounds(460, 240, 50, 22);
+
+        jComboBox13.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
+        jPanel23.add(jComboBox13);
+        jComboBox13.setBounds(530, 240, 41, 22);
+
+        jComboBox14.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" }));
+        jPanel23.add(jComboBox14);
+        jComboBox14.setBounds(590, 240, 80, 22);
+
+        jLabel84.setText("Bio:");
+        jPanel23.add(jLabel84);
+        jLabel84.setBounds(170, 290, 22, 30);
+
+        jLabel85.setText(" ");
+        jPanel23.add(jLabel85);
+        jLabel85.setBounds(210, 290, 460, 100);
+
+        jLabel86.setFont(new java.awt.Font("Tw Cen MT", 0, 18)); // NOI18N
+        jLabel86.setText("Profile Page");
+        jPanel23.add(jLabel86);
+        jLabel86.setBounds(320, 30, 210, 40);
+
+        javax.swing.GroupLayout fProfileLayout = new javax.swing.GroupLayout(fProfile.getContentPane());
+        fProfile.getContentPane().setLayout(fProfileLayout);
+        fProfileLayout.setHorizontalGroup(
+            fProfileLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, 805, Short.MAX_VALUE)
+        );
+        fProfileLayout.setVerticalGroup(
+            fProfileLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel23, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
         );
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
@@ -1477,8 +1610,10 @@ f2.setVisible(true);
     private javax.swing.JFrame f7;
     private javax.swing.JFrame fA;
     private javax.swing.JFrame fN;
+    private javax.swing.JFrame fProfile;
     private javax.swing.JFrame fhN;
     private javax.swing.JLabel genderfhN;
+    private javax.swing.JLabel genderfhN1;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton12;
@@ -1515,6 +1650,9 @@ f2.setVisible(true);
     private javax.swing.JButton jButton42;
     private javax.swing.JButton jButton43;
     private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
+    private javax.swing.JButton jButton46;
+    private javax.swing.JButton jButton47;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
@@ -1527,6 +1665,9 @@ f2.setVisible(true);
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JComboBox<String> jComboBox10;
     private javax.swing.JComboBox<String> jComboBox11;
+    private javax.swing.JComboBox<String> jComboBox12;
+    private javax.swing.JComboBox<String> jComboBox13;
+    private javax.swing.JComboBox<String> jComboBox14;
     private javax.swing.JComboBox<String> jComboBox2;
     private javax.swing.JComboBox<String> jComboBox3;
     private javax.swing.JComboBox<String> jComboBox4;
@@ -1611,7 +1752,16 @@ f2.setVisible(true);
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JLayeredPane jLayeredPane2;
@@ -1630,6 +1780,8 @@ f2.setVisible(true);
     private javax.swing.JPanel jPanel20;
     private javax.swing.JPanel jPanel21;
     private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
+    private javax.swing.JPanel jPanel24;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -1659,6 +1811,7 @@ f2.setVisible(true);
     private javax.swing.JTextField jTextField9;
     private javax.swing.JPasswordField p1;
     private javax.swing.JLabel requestername;
+    private javax.swing.JLabel requestername1;
     private javax.swing.JTextField t1;
     private javax.swing.JLabel time1;
     private javax.swing.JLabel timeforevent1;
