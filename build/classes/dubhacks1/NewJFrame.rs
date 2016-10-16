@@ -2,7 +2,10 @@ NewJFrame$6
 NewJFrame$5
 NewJFrame$8
 NewJFrame$7
+<<<<<<< HEAD
 NewJFrame$10
+=======
+>>>>>>> origin/master
 NewJFrame$2
 NewJFrame$1
 NewJFrame$4
