@@ -1116,6 +1116,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton47.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton47.setText("Notification");
+        jButton47.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton47ActionPerformed(evt);
+            }
+        });
         jPanel15.add(jButton47);
         jButton47.setBounds(10, 180, 100, 80);
 
@@ -1612,6 +1617,14 @@ f3.setVisible(true);
 
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton27ActionPerformed
+
+    private void jButton47ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton47ActionPerformed
+fA.dispose();
+fN.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+fN.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton47ActionPerformed
 
     /**
      * @param args the command line arguments
