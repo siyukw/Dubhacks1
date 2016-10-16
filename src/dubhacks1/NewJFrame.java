@@ -61,12 +61,10 @@ public class NewJFrame extends javax.swing.JFrame {
         f3 = new javax.swing.JFrame();
         jPanel3 = new javax.swing.JPanel();
         jTextField6 = new javax.swing.JTextField();
-        jButton5 = new javax.swing.JButton();
         jButton6 = new javax.swing.JButton();
         jPanel4 = new javax.swing.JPanel();
         jLabel11 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jScrollBar1 = new javax.swing.JScrollBar();
         jPanel5 = new javax.swing.JPanel();
         jLabel13 = new javax.swing.JLabel();
         jLabel14 = new javax.swing.JLabel();
@@ -77,10 +75,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton8 = new javax.swing.JButton();
         jButton9 = new javax.swing.JButton();
         jButton20 = new javax.swing.JButton();
+        jLayeredPane1 = new javax.swing.JLayeredPane();
+        jScrollBar1 = new javax.swing.JScrollBar();
         f4 = new javax.swing.JFrame();
         jPanel11 = new javax.swing.JPanel();
         jTextField8 = new javax.swing.JTextField();
-        jButton15 = new javax.swing.JButton();
         jButton16 = new javax.swing.JButton();
         jPanel12 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
@@ -89,6 +88,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel13 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
+        jLayeredPane2 = new javax.swing.JLayeredPane();
         jPanel14 = new javax.swing.JPanel();
         jLabel26 = new javax.swing.JLabel();
         jLabel27 = new javax.swing.JLabel();
@@ -97,7 +97,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton19 = new javax.swing.JButton();
         f5 = new javax.swing.JFrame();
         jPanel7 = new javax.swing.JPanel();
-        jButton10 = new javax.swing.JButton();
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
@@ -125,7 +124,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton24 = new javax.swing.JButton();
         jButton25 = new javax.swing.JButton();
         jButton26 = new javax.swing.JButton();
-        jButton27 = new javax.swing.JButton();
         PicofFood = new javax.swing.JPanel();
         jLabel33 = new javax.swing.JLabel();
         jLabel21 = new javax.swing.JLabel();
@@ -161,7 +159,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel53 = new javax.swing.JLabel();
         jPanel10 = new javax.swing.JPanel();
         jLabel42 = new javax.swing.JLabel();
-        jButton11 = new javax.swing.JButton();
         jButton32 = new javax.swing.JButton();
         jLabel54 = new javax.swing.JLabel();
         jTextField7 = new javax.swing.JTextField();
@@ -174,7 +171,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel60 = new javax.swing.JLabel();
         fA = new javax.swing.JFrame();
         jPanel15 = new javax.swing.JPanel();
-        jButton33 = new javax.swing.JButton();
         jButton34 = new javax.swing.JButton();
         jButton35 = new javax.swing.JButton();
         jButton36 = new javax.swing.JButton();
@@ -198,6 +194,42 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jButton38 = new javax.swing.JButton();
         jButton39 = new javax.swing.JButton();
+        fN = new javax.swing.JFrame();
+        jPanel17 = new javax.swing.JPanel();
+        jButton41 = new javax.swing.JButton();
+        jButton42 = new javax.swing.JButton();
+        jButton43 = new javax.swing.JButton();
+        jLabel69 = new javax.swing.JLabel();
+        jPanel18 = new javax.swing.JPanel();
+        Foodpic1 = new javax.swing.JLabel();
+        Nameofevent = new javax.swing.JLabel();
+        dropoutbutton = new javax.swing.JButton();
+        jScrollBar2 = new javax.swing.JScrollBar();
+        jPanel19 = new javax.swing.JPanel();
+        Foodpic2 = new javax.swing.JLabel();
+        Nameofevent1 = new javax.swing.JLabel();
+        time1 = new javax.swing.JLabel();
+        address1 = new javax.swing.JLabel();
+        dropoutbutton1 = new javax.swing.JButton();
+        timeforevent1 = new javax.swing.JLabel();
+        addressforevent1 = new javax.swing.JLabel();
+        jPanel20 = new javax.swing.JPanel();
+        Foodpic3 = new javax.swing.JLabel();
+        Nameofevent2 = new javax.swing.JLabel();
+        dropoutbutton2 = new javax.swing.JButton();
+        fhN = new javax.swing.JFrame();
+        jPanel21 = new javax.swing.JPanel();
+        jPanel22 = new javax.swing.JPanel();
+        jLabel70 = new javax.swing.JLabel();
+        jButton33 = new javax.swing.JButton();
+        jButton40 = new javax.swing.JButton();
+        jButton44 = new javax.swing.JButton();
+        jLabel71 = new javax.swing.JLabel();
+        requestername = new javax.swing.JLabel();
+        jLabel72 = new javax.swing.JLabel();
+        genderfhN = new javax.swing.JLabel();
+        jButton5 = new javax.swing.JButton();
+        jButton10 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 204));
@@ -350,10 +382,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel3.add(jTextField6);
         jTextField6.setBounds(40, 10, 600, 30);
 
-        jButton5.setText("*");
-        jPanel3.add(jButton5);
-        jButton5.setBounds(10, 10, 30, 30);
-
         jButton6.setText("Search");
         jPanel3.add(jButton6);
         jButton6.setBounds(640, 10, 140, 30);
@@ -370,8 +398,6 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jPanel3.add(jPanel4);
         jPanel4.setBounds(340, 60, 170, 310);
-        jPanel3.add(jScrollBar1);
-        jScrollBar1.setBounds(750, 50, 21, 360);
 
         jPanel5.setLayout(null);
 
@@ -403,7 +429,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel3.add(jButton7);
         jButton7.setBounds(10, 280, 100, 80);
 
-        jButton8.setText("History");
+        jButton8.setText("Home");
         jPanel3.add(jButton8);
         jButton8.setBounds(10, 70, 100, 80);
 
@@ -414,6 +440,25 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton20.setText("Write a post...");
         jPanel3.add(jButton20);
         jButton20.setBounds(90, 420, 670, 60);
+
+        jLayeredPane1.setLayer(jScrollBar1, javax.swing.JLayeredPane.DEFAULT_LAYER);
+
+        javax.swing.GroupLayout jLayeredPane1Layout = new javax.swing.GroupLayout(jLayeredPane1);
+        jLayeredPane1.setLayout(jLayeredPane1Layout);
+        jLayeredPane1Layout.setHorizontalGroup(
+            jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jLayeredPane1Layout.createSequentialGroup()
+                .addContainerGap(607, Short.MAX_VALUE)
+                .addComponent(jScrollBar1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jLayeredPane1Layout.setVerticalGroup(
+            jLayeredPane1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jScrollBar1, javax.swing.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE)
+        );
+
+        jPanel3.add(jLayeredPane1);
+        jLayeredPane1.setBounds(130, 60, 640, 310);
 
         javax.swing.GroupLayout f3Layout = new javax.swing.GroupLayout(f3.getContentPane());
         f3.getContentPane().setLayout(f3Layout);
@@ -433,10 +478,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel11.add(jTextField8);
         jTextField8.setBounds(40, 20, 570, 30);
 
-        jButton15.setText("*");
-        jPanel11.add(jButton15);
-        jButton15.setBounds(10, 20, 30, 30);
-
         jButton16.setText("Search");
         jPanel11.add(jButton16);
         jButton16.setBounds(610, 20, 140, 30);
@@ -452,9 +493,9 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel23.setBounds(10, 190, 130, 40);
 
         jPanel11.add(jPanel12);
-        jPanel12.setBounds(330, 70, 170, 310);
+        jPanel12.setBounds(330, 60, 170, 310);
         jPanel11.add(jScrollBar3);
-        jScrollBar3.setBounds(730, 60, 20, 390);
+        jScrollBar3.setBounds(730, 60, 20, 330);
 
         jPanel13.setLayout(null);
 
@@ -465,6 +506,20 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel25.setText(" ");
         jPanel13.add(jLabel25);
         jLabel25.setBounds(10, 190, 130, 40);
+
+        javax.swing.GroupLayout jLayeredPane2Layout = new javax.swing.GroupLayout(jLayeredPane2);
+        jLayeredPane2.setLayout(jLayeredPane2Layout);
+        jLayeredPane2Layout.setHorizontalGroup(
+            jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 630, Short.MAX_VALUE)
+        );
+        jLayeredPane2Layout.setVerticalGroup(
+            jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 330, Short.MAX_VALUE)
+        );
+
+        jPanel13.add(jLayeredPane2);
+        jLayeredPane2.setBounds(-410, -10, 630, 330);
 
         jPanel11.add(jPanel13);
         jPanel13.setBounds(530, 70, 180, 310);
@@ -480,13 +535,13 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel27.setBounds(0, 190, 130, 40);
 
         jPanel11.add(jPanel14);
-        jPanel14.setBounds(130, 70, 160, 300);
+        jPanel14.setBounds(120, 60, 170, 320);
 
         jButton17.setText("Account");
         jPanel11.add(jButton17);
         jButton17.setBounds(10, 300, 100, 80);
 
-        jButton18.setText("History");
+        jButton18.setText("Home");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton18ActionPerformed(evt);
@@ -513,11 +568,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(255, 255, 204));
         jPanel7.setLayout(null);
 
-        jButton10.setText("*");
-        jPanel7.add(jButton10);
-        jButton10.setBounds(10, 10, 30, 30);
-
-        jButton12.setText("History");
+        jButton12.setText("Home");
         jPanel7.add(jButton12);
         jButton12.setBounds(10, 70, 100, 80);
 
@@ -628,13 +679,9 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel8.add(jButton25);
         jButton25.setBounds(10, 160, 100, 80);
 
-        jButton26.setText("History");
+        jButton26.setText("Home");
         jPanel8.add(jButton26);
         jButton26.setBounds(10, 70, 100, 80);
-
-        jButton27.setText("*");
-        jPanel8.add(jButton27);
-        jButton27.setBounds(10, 10, 30, 30);
 
         jLabel33.setText(" ");
 
@@ -732,7 +779,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel9.add(jButton29);
         jButton29.setBounds(10, 250, 100, 80);
 
-        jButton31.setText("History");
+        jButton31.setText("Home");
         jPanel9.add(jButton31);
         jButton31.setBounds(10, 70, 100, 80);
 
@@ -802,10 +849,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel9.add(jPanel10);
         jPanel10.setBounds(160, 50, 190, 180);
 
-        jButton11.setText("jButton11");
-        jPanel9.add(jButton11);
-        jButton11.setBounds(10, 10, 40, 40);
-
         jButton32.setText("Ask for a Bite");
         jPanel9.add(jButton32);
         jButton32.setBounds(520, 410, 190, 50);
@@ -860,11 +903,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel15.setBackground(new java.awt.Color(255, 255, 204));
         jPanel15.setLayout(null);
 
-        jButton33.setText("jButton11");
-        jPanel15.add(jButton33);
-        jButton33.setBounds(10, 20, 40, 40);
-
-        jButton34.setText("History");
+        jButton34.setText("Home");
         jPanel15.add(jButton34);
         jButton34.setBounds(10, 80, 100, 80);
 
@@ -984,8 +1023,252 @@ public class NewJFrame extends javax.swing.JFrame {
             .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)
         );
 
+        jPanel17.setBackground(new java.awt.Color(255, 255, 204));
+        jPanel17.setLayout(null);
+
+        jButton41.setText("Home");
+        jPanel17.add(jButton41);
+        jButton41.setBounds(10, 80, 100, 80);
+
+        jButton42.setText("Notification");
+        jPanel17.add(jButton42);
+        jButton42.setBounds(10, 190, 100, 80);
+
+        jButton43.setText("Account");
+        jPanel17.add(jButton43);
+        jButton43.setBounds(10, 300, 100, 80);
+
+        jLabel69.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel69.setText("Notifications");
+        jPanel17.add(jLabel69);
+        jLabel69.setBounds(290, 30, 230, 40);
+
+        Nameofevent.setText(" ");
+
+        dropoutbutton.setText("Close");
+
+        javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
+        jPanel18.setLayout(jPanel18Layout);
+        jPanel18Layout.setHorizontalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Foodpic1, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Nameofevent, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(55, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel18Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(dropoutbutton)
+                        .addGap(37, 37, 37))))
+        );
+        jPanel18Layout.setVerticalGroup(
+            jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel18Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel18Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addComponent(Foodpic1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addContainerGap())
+                    .addGroup(jPanel18Layout.createSequentialGroup()
+                        .addComponent(Nameofevent, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                        .addComponent(dropoutbutton)
+                        .addGap(21, 21, 21))))
+        );
+
+        jPanel17.add(jPanel18);
+        jPanel18.setBounds(160, 350, 540, 110);
+
+        jScrollBar2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
+        jPanel17.add(jScrollBar2);
+        jScrollBar2.setBounds(750, 90, 21, 390);
+
+        Nameofevent1.setText(" ");
+
+        time1.setText("Time:");
+
+        address1.setText("Address:");
+
+        dropoutbutton1.setText("Drop Out");
+
+        timeforevent1.setText(" ");
+
+        addressforevent1.setText(" ");
+
+        javax.swing.GroupLayout jPanel19Layout = new javax.swing.GroupLayout(jPanel19);
+        jPanel19.setLayout(jPanel19Layout);
+        jPanel19Layout.setHorizontalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Foodpic2, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Nameofevent1, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel19Layout.createSequentialGroup()
+                                .addComponent(time1)
+                                .addGap(18, 18, 18)
+                                .addComponent(timeforevent1, javax.swing.GroupLayout.PREFERRED_SIZE, 122, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addContainerGap(55, Short.MAX_VALUE))
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addComponent(address1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(addressforevent1, javax.swing.GroupLayout.PREFERRED_SIZE, 152, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(dropoutbutton1)
+                        .addGap(39, 39, 39))))
+        );
+        jPanel19Layout.setVerticalGroup(
+            jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel19Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(Foodpic2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel19Layout.createSequentialGroup()
+                        .addComponent(Nameofevent1, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(time1, javax.swing.GroupLayout.PREFERRED_SIZE, 24, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(timeforevent1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel19Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                                .addComponent(address1)
+                                .addComponent(addressforevent1, javax.swing.GroupLayout.PREFERRED_SIZE, 16, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(dropoutbutton1))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        jPanel17.add(jPanel19);
+        jPanel19.setBounds(160, 90, 540, 110);
+
+        Nameofevent2.setText(" ");
+
+        dropoutbutton2.setText("Close");
+
+        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
+        jPanel20.setLayout(jPanel20Layout);
+        jPanel20Layout.setHorizontalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(Foodpic3, javax.swing.GroupLayout.PREFERRED_SIZE, 109, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Nameofevent2, javax.swing.GroupLayout.PREFERRED_SIZE, 357, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addContainerGap(55, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(dropoutbutton2)
+                        .addGap(40, 40, 40))))
+        );
+        jPanel20Layout.setVerticalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addComponent(Nameofevent2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                        .addComponent(dropoutbutton2))
+                    .addComponent(Foodpic3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jPanel17.add(jPanel20);
+        jPanel20.setBounds(160, 220, 540, 110);
+
+        javax.swing.GroupLayout fNLayout = new javax.swing.GroupLayout(fN.getContentPane());
+        fN.getContentPane().setLayout(fNLayout);
+        fNLayout.setHorizontalGroup(
+            fNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, 804, Short.MAX_VALUE)
+        );
+        fNLayout.setVerticalGroup(
+            fNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel17, javax.swing.GroupLayout.DEFAULT_SIZE, 506, Short.MAX_VALUE)
+        );
+
+        jPanel21.setBackground(new java.awt.Color(255, 255, 204));
+        jPanel21.setLayout(null);
+
+        jLabel70.setText(" ");
+
+        javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
+        jPanel22.setLayout(jPanel22Layout);
+        jPanel22Layout.setHorizontalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel70, javax.swing.GroupLayout.DEFAULT_SIZE, 166, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel22Layout.setVerticalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel70, javax.swing.GroupLayout.DEFAULT_SIZE, 154, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        jPanel21.add(jPanel22);
+        jPanel22.setBounds(160, 50, 190, 180);
+
+        jButton33.setText("Home");
+        jPanel21.add(jButton33);
+        jButton33.setBounds(10, 70, 100, 80);
+
+        jButton40.setText("Notification");
+        jPanel21.add(jButton40);
+        jButton40.setBounds(10, 160, 100, 80);
+
+        jButton44.setText("Account");
+        jPanel21.add(jButton44);
+        jButton44.setBounds(10, 250, 100, 80);
+
+        jLabel71.setText("Name:");
+        jPanel21.add(jLabel71);
+        jLabel71.setBounds(390, 60, 38, 16);
+
+        requestername.setText(" ");
+        jPanel21.add(requestername);
+        requestername.setBounds(450, 50, 250, 30);
+
+        jLabel72.setText("Gender:");
+        jPanel21.add(jLabel72);
+        jLabel72.setBounds(390, 140, 46, 16);
+
+        genderfhN.setText(" ");
+        jPanel21.add(genderfhN);
+        genderfhN.setBounds(460, 140, 190, 50);
+
+        jButton5.setText("Come and Grab A Bite!");
+        jPanel21.add(jButton5);
+        jButton5.setBounds(500, 400, 220, 60);
+
+        jButton10.setText("Oops, sorry!");
+        jPanel21.add(jButton10);
+        jButton10.setBounds(120, 400, 240, 60);
+
+        javax.swing.GroupLayout fhNLayout = new javax.swing.GroupLayout(fhN.getContentPane());
+        fhN.getContentPane().setLayout(fhNLayout);
+        fhNLayout.setHorizontalGroup(
+            fhNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel21, javax.swing.GroupLayout.DEFAULT_SIZE, 804, Short.MAX_VALUE)
+        );
+        fhNLayout.setVerticalGroup(
+            fhNLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel21, javax.swing.GroupLayout.DEFAULT_SIZE, 509, Short.MAX_VALUE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setPreferredSize(new java.awt.Dimension(800, 500));
         addWindowListener(new java.awt.event.WindowAdapter() {
             public void windowActivated(java.awt.event.WindowEvent evt) {
                 formWindowActivated(evt);
@@ -993,6 +1276,11 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton21.setText("OK");
+        jButton21.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton21ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -1114,7 +1402,18 @@ f1.setVisible(true);
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Foodpic1;
+    private javax.swing.JLabel Foodpic2;
+    private javax.swing.JLabel Foodpic3;
+    private javax.swing.JLabel Nameofevent;
+    private javax.swing.JLabel Nameofevent1;
+    private javax.swing.JLabel Nameofevent2;
     private javax.swing.JPanel PicofFood;
+    private javax.swing.JLabel address1;
+    private javax.swing.JLabel addressforevent1;
+    private javax.swing.JButton dropoutbutton;
+    private javax.swing.JButton dropoutbutton1;
+    private javax.swing.JButton dropoutbutton2;
     private javax.swing.JFrame f1;
     private javax.swing.JFrame f2;
     private javax.swing.JFrame f3;
@@ -1123,13 +1422,14 @@ f1.setVisible(true);
     private javax.swing.JFrame f6;
     private javax.swing.JFrame f7;
     private javax.swing.JFrame fA;
+    private javax.swing.JFrame fN;
+    private javax.swing.JFrame fhN;
+    private javax.swing.JLabel genderfhN;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
-    private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
-    private javax.swing.JButton jButton15;
     private javax.swing.JButton jButton16;
     private javax.swing.JButton jButton17;
     private javax.swing.JButton jButton18;
@@ -1142,7 +1442,6 @@ f1.setVisible(true);
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
-    private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
@@ -1157,6 +1456,11 @@ f1.setVisible(true);
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
+    private javax.swing.JButton jButton40;
+    private javax.swing.JButton jButton41;
+    private javax.swing.JButton jButton42;
+    private javax.swing.JButton jButton43;
+    private javax.swing.JButton jButton44;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
@@ -1239,9 +1543,15 @@ f1.setVisible(true);
     private javax.swing.JLabel jLabel66;
     private javax.swing.JLabel jLabel67;
     private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel69;
     private javax.swing.JLabel jLabel7;
+    private javax.swing.JLabel jLabel70;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
+    private javax.swing.JLayeredPane jLayeredPane1;
+    private javax.swing.JLayeredPane jLayeredPane2;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
@@ -1250,7 +1560,13 @@ f1.setVisible(true);
     private javax.swing.JPanel jPanel14;
     private javax.swing.JPanel jPanel15;
     private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel18;
+    private javax.swing.JPanel jPanel19;
     private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -1260,6 +1576,7 @@ f1.setVisible(true);
     private javax.swing.JPanel jPanel9;
     private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JScrollBar jScrollBar1;
+    private javax.swing.JScrollBar jScrollBar2;
     private javax.swing.JScrollBar jScrollBar3;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
@@ -1279,7 +1596,10 @@ f1.setVisible(true);
     private javax.swing.JTextField jTextField8;
     private javax.swing.JTextField jTextField9;
     private javax.swing.JPasswordField p1;
+    private javax.swing.JLabel requestername;
     private javax.swing.JTextField t1;
+    private javax.swing.JLabel time1;
+    private javax.swing.JLabel timeforevent1;
     private javax.swing.JButton uploadAPicture;
     // End of variables declaration//GEN-END:variables
 }
