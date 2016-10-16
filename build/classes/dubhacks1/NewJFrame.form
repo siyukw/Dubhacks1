@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
-<<<<<<< HEAD
-<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
-=======
 <Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
->>>>>>> origin/master
   <NonVisualComponents>
     <Container class="javax.swing.JFrame" name="f1">
 
@@ -93,6 +89,9 @@
               <Properties>
                 <Property name="text" type="java.lang.String" value="Create Account"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
                   <AbsoluteConstraints x="70" y="400" width="140" height="40"/>
@@ -120,9 +119,6 @@
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
           <Color blue="cc" green="ff" red="ff" type="rgb"/>
-        </Property>
-        <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-          <Dimension value="[800, 500]"/>
         </Property>
       </Properties>
 
@@ -536,19 +532,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-<<<<<<< HEAD
-            <Component class="javax.swing.JButton" name="jButton5">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="*"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="30" height="30"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-=======
->>>>>>> origin/master
             <Component class="javax.swing.JButton" name="jButton6">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Search"/>
@@ -592,16 +575,6 @@
                 </Component>
               </SubComponents>
             </Container>
-<<<<<<< HEAD
-            <Component class="javax.swing.JScrollBar" name="jScrollBar1">
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="750" y="50" width="-1" height="360"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-=======
->>>>>>> origin/master
             <Container class="javax.swing.JPanel" name="jPanel5">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -680,11 +653,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="jButton8">
               <Properties>
-<<<<<<< HEAD
-                <Property name="text" type="java.lang.String" value="History"/>
-=======
                 <Property name="text" type="java.lang.String" value="Home"/>
->>>>>>> origin/master
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -712,8 +681,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-<<<<<<< HEAD
-=======
             <Container class="javax.swing.JLayeredPane" name="jLayeredPane1">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -724,25 +691,16 @@
               <Layout>
                 <DimensionLayout dim="0">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="102" alignment="1" attributes="0">
-                          <EmptySpace pref="607" max="32767" attributes="0"/>
-                          <Component id="jScrollBar1" min="-2" max="-2" attributes="0"/>
-                          <EmptySpace max="-2" attributes="0"/>
-                      </Group>
+                      <EmptySpace min="0" pref="640" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
                 <DimensionLayout dim="1">
                   <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="jScrollBar1" alignment="0" pref="310" max="32767" attributes="0"/>
+                      <EmptySpace min="0" pref="310" max="32767" attributes="0"/>
                   </Group>
                 </DimensionLayout>
               </Layout>
-              <SubComponents>
-                <Component class="javax.swing.JScrollBar" name="jScrollBar1">
-                </Component>
-              </SubComponents>
             </Container>
->>>>>>> origin/master
           </SubComponents>
         </Container>
       </SubComponents>
@@ -783,19 +741,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-<<<<<<< HEAD
-            <Component class="javax.swing.JButton" name="jButton15">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="*"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="20" width="30" height="30"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-=======
->>>>>>> origin/master
             <Component class="javax.swing.JButton" name="jButton16">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Search"/>
@@ -809,11 +754,7 @@
             <Container class="javax.swing.JPanel" name="jPanel12">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-                  <AbsoluteConstraints x="330" y="70" width="170" height="310"/>
-=======
                   <AbsoluteConstraints x="330" y="60" width="170" height="310"/>
->>>>>>> origin/master
                 </Constraint>
               </Constraints>
 
@@ -846,11 +787,7 @@
             <Component class="javax.swing.JScrollBar" name="jScrollBar3">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-                  <AbsoluteConstraints x="730" y="60" width="20" height="390"/>
-=======
                   <AbsoluteConstraints x="730" y="60" width="20" height="330"/>
->>>>>>> origin/master
                 </Constraint>
               </Constraints>
             </Component>
@@ -885,8 +822,6 @@
                     </Constraint>
                   </Constraints>
                 </Component>
-<<<<<<< HEAD
-=======
                 <Container class="javax.swing.JLayeredPane" name="jLayeredPane2">
                   <Constraints>
                     <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -907,17 +842,12 @@
                     </DimensionLayout>
                   </Layout>
                 </Container>
->>>>>>> origin/master
               </SubComponents>
             </Container>
             <Container class="javax.swing.JPanel" name="jPanel14">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-<<<<<<< HEAD
-                  <AbsoluteConstraints x="130" y="70" width="160" height="300"/>
-=======
                   <AbsoluteConstraints x="120" y="60" width="170" height="320"/>
->>>>>>> origin/master
                 </Constraint>
               </Constraints>
 
@@ -959,11 +889,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="jButton18">
               <Properties>
-<<<<<<< HEAD
-                <Property name="text" type="java.lang.String" value="History"/>
-=======
                 <Property name="text" type="java.lang.String" value="Home"/>
->>>>>>> origin/master
               </Properties>
               <Events>
                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton18ActionPerformed"/>
@@ -1014,25 +940,9 @@
             <Property name="useNullLayout" type="boolean" value="true"/>
           </Layout>
           <SubComponents>
-<<<<<<< HEAD
-            <Component class="javax.swing.JButton" name="jButton10">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="*"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="30" height="30"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JButton" name="jButton12">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="History"/>
-=======
             <Component class="javax.swing.JButton" name="jButton12">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Home"/>
->>>>>>> origin/master
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1299,11 +1209,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="jButton26">
               <Properties>
-<<<<<<< HEAD
-                <Property name="text" type="java.lang.String" value="History"/>
-=======
                 <Property name="text" type="java.lang.String" value="Home"/>
->>>>>>> origin/master
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1311,19 +1217,6 @@
                 </Constraint>
               </Constraints>
             </Component>
-<<<<<<< HEAD
-            <Component class="javax.swing.JButton" name="jButton27">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="*"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="30" height="30"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-=======
->>>>>>> origin/master
             <Container class="javax.swing.JPanel" name="PicofFood">
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1550,11 +1443,7 @@
             </Component>
             <Component class="javax.swing.JButton" name="jButton31">
               <Properties>
-<<<<<<< HEAD
-                <Property name="text" type="java.lang.String" value="History"/>
-=======
                 <Property name="text" type="java.lang.String" value="Home"/>
->>>>>>> origin/master
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -1707,19 +1596,6 @@
                 </Component>
               </SubComponents>
             </Container>
-<<<<<<< HEAD
-            <Component class="javax.swing.JButton" name="jButton11">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="jButton11"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="10" width="40" height="40"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-=======
->>>>>>> origin/master
             <Component class="javax.swing.JButton" name="jButton32">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Ask for a Bite"/>
@@ -1850,25 +1726,9 @@
             <Property name="useNullLayout" type="boolean" value="true"/>
           </Layout>
           <SubComponents>
-<<<<<<< HEAD
-            <Component class="javax.swing.JButton" name="jButton33">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="jButton11"/>
-              </Properties>
-              <Constraints>
-                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
-                  <AbsoluteConstraints x="10" y="20" width="40" height="40"/>
-                </Constraint>
-              </Constraints>
-            </Component>
-            <Component class="javax.swing.JButton" name="jButton34">
-              <Properties>
-                <Property name="text" type="java.lang.String" value="History"/>
-=======
             <Component class="javax.swing.JButton" name="jButton34">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Home"/>
->>>>>>> origin/master
               </Properties>
               <Constraints>
                 <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
@@ -2304,14 +2164,6 @@
         </Container>
       </SubComponents>
     </Container>
-<<<<<<< HEAD
-  </NonVisualComponents>
-  <Properties>
-    <Property name="defaultCloseOperation" type="int" value="3"/>
-    <Property name="preferredSize" type="java.awt.Dimension" editor="org.netbeans.beaninfo.editors.DimensionEditor">
-      <Dimension value="[800, 500]"/>
-    </Property>
-=======
     <Container class="javax.swing.JFrame" name="fN">
 
       <Layout>
@@ -2782,7 +2634,6 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
->>>>>>> origin/master
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
