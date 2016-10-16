@@ -215,7 +215,6 @@ public class NewJFrame extends javax.swing.JFrame {
         Nameofevent2 = new javax.swing.JLabel();
         dropoutbutton2 = new javax.swing.JButton();
         jButton45 = new javax.swing.JButton();
-        jButton49 = new javax.swing.JButton();
         jButton50 = new javax.swing.JButton();
         fhN = new javax.swing.JFrame();
         jPanel21 = new javax.swing.JPanel();
@@ -360,6 +359,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton3.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton3.setText("Cancel");
+        jButton3.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton3ActionPerformed(evt);
+            }
+        });
         jPanel2.add(jButton3);
         jButton3.setBounds(90, 420, 210, 50);
 
@@ -453,16 +457,31 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton7.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton7.setText("Account");
+        jButton7.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton7ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton7);
         jButton7.setBounds(10, 280, 100, 80);
 
         jButton8.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton8.setText("Home");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton8);
         jButton8.setBounds(10, 70, 100, 80);
 
         jButton9.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton9.setText("Notification");
+        jButton9.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton9ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton9);
         jButton9.setBounds(10, 180, 100, 80);
 
@@ -1077,6 +1096,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton39.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton39.setText("Cancel");
+        jButton39.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton39ActionPerformed(evt);
+            }
+        });
         jPanel15.add(jButton39);
         jButton39.setBounds(180, 410, 170, 40);
 
@@ -1259,16 +1283,21 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton45.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton45.setText("Home");
+        jButton45.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton45ActionPerformed(evt);
+            }
+        });
         jPanel17.add(jButton45);
         jButton45.setBounds(10, 90, 100, 80);
 
-        jButton49.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
-        jButton49.setText("Notification");
-        jPanel17.add(jButton49);
-        jButton49.setBounds(10, 190, 100, 80);
-
         jButton50.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton50.setText("Account");
+        jButton50.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton50ActionPerformed(evt);
+            }
+        });
         jPanel17.add(jButton50);
         jButton50.setBounds(10, 280, 100, 80);
 
@@ -1460,10 +1489,12 @@ public class NewJFrame extends javax.swing.JFrame {
           ResultSet rs =stmt.executeQuery(s);
           if(rs.next())
           {
-              JOptionPane.showMessageDialog(null,"boooo");
+              JOptionPane.showMessageDialog(null,"Welcome");
               f1.dispose();
               f3.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
               f3.setVisible(true);
+              t1.setText("");
+              p1.setText("");
           }
           else
           {
@@ -1516,6 +1547,58 @@ f1.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
 f1.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton46ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+f3.dispose();
+f1.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+f1.setVisible(true);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
+    private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton3ActionPerformed
+f2.dispose();
+f1.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+f1.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton3ActionPerformed
+
+    private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
+f3.dispose();
+fA.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+fA.setVisible(true);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton7ActionPerformed
+
+    private void jButton39ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton39ActionPerformed
+fA.dispose();
+f3.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+f3.setVisible(true);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton39ActionPerformed
+
+    private void jButton9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton9ActionPerformed
+f3.dispose();
+fN.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+fN.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton9ActionPerformed
+
+    private void jButton45ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton45ActionPerformed
+fN.dispose();
+f3.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+f3.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton45ActionPerformed
+
+    private void jButton50ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton50ActionPerformed
+fN.dispose();
+fA.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+fA.setVisible(true);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton50ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -1608,7 +1691,6 @@ f1.setVisible(true);
     private javax.swing.JButton jButton46;
     private javax.swing.JButton jButton47;
     private javax.swing.JButton jButton48;
-    private javax.swing.JButton jButton49;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton50;
     private javax.swing.JButton jButton51;
