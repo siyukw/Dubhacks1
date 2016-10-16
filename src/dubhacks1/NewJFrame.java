@@ -1,4 +1,3 @@
-
 import java.sql.*;
 import javax.swing.JOptionPane;
 import javax.swing.table.*;
@@ -50,12 +49,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel8 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jTextField3 = new javax.swing.JTextField();
         jTextField4 = new javax.swing.JTextField();
         jTextField5 = new javax.swing.JTextField();
         jButton3 = new javax.swing.JButton();
         jButton4 = new javax.swing.JButton();
+        jComboBox2 = new javax.swing.JComboBox<>();
+        jComboBox3 = new javax.swing.JComboBox<>();
+        jComboBox4 = new javax.swing.JComboBox<>();
+        jComboBox5 = new javax.swing.JComboBox<>();
         f3 = new javax.swing.JFrame();
         jPanel3 = new javax.swing.JPanel();
         jTextField6 = new javax.swing.JTextField();
@@ -170,6 +171,32 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel58 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
+        fA = new javax.swing.JFrame();
+        jPanel15 = new javax.swing.JPanel();
+        jButton33 = new javax.swing.JButton();
+        jButton34 = new javax.swing.JButton();
+        jButton35 = new javax.swing.JButton();
+        jButton36 = new javax.swing.JButton();
+        jLabel61 = new javax.swing.JLabel();
+        jPanel16 = new javax.swing.JPanel();
+        jLabel62 = new javax.swing.JLabel();
+        jButton37 = new javax.swing.JButton();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jTextField17 = new javax.swing.JTextField();
+        jLabel65 = new javax.swing.JLabel();
+        jTextField18 = new javax.swing.JTextField();
+        jPasswordField1 = new javax.swing.JPasswordField();
+        jLabel66 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox<>();
+        jComboBox6 = new javax.swing.JComboBox<>();
+        jComboBox7 = new javax.swing.JComboBox<>();
+        jComboBox8 = new javax.swing.JComboBox<>();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        jTextField2 = new javax.swing.JTextField();
+        jButton38 = new javax.swing.JButton();
+        jButton39 = new javax.swing.JButton();
         jButton21 = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 204));
@@ -184,15 +211,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel1.add(t1);
         t1.setBounds(320, 170, 230, 20);
         jPanel1.add(p1);
-        p1.setBounds(320, 230, 230, 20);
+        p1.setBounds(320, 230, 230, 22);
 
         jLabel1.setText("Username:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(210, 170, 90, 14);
+        jLabel1.setBounds(210, 170, 90, 16);
 
         jLabel2.setText("Password:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(210, 240, 80, 14);
+        jLabel2.setBounds(210, 240, 80, 16);
 
         jLabel3.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 36)); // NOI18N
         jLabel3.setText("Up for Grabs");
@@ -240,11 +267,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel5.setText("Name");
         jPanel2.add(jLabel5);
-        jLabel5.setBounds(90, 100, 27, 14);
+        jLabel5.setBounds(90, 100, 33, 16);
 
-        jLabel6.setText("Age");
+        jLabel6.setText("Birthday");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(90, 140, 41, 14);
+        jLabel6.setBounds(90, 140, 70, 16);
 
         jLabel7.setText("Gender(M/F/O)");
         jPanel2.add(jLabel7);
@@ -252,11 +279,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel8.setText("Phone Number");
         jPanel2.add(jLabel8);
-        jLabel8.setBounds(90, 180, 110, 14);
+        jLabel8.setBounds(90, 180, 110, 16);
 
         jLabel9.setText("Brief Description");
         jPanel2.add(jLabel9);
-        jLabel9.setBounds(90, 210, 120, 14);
+        jLabel9.setBounds(90, 210, 120, 16);
 
         jTextField1.setText(" ");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -265,31 +292,44 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel2.add(jTextField1);
-        jTextField1.setBounds(140, 100, 570, 20);
-
-        jTextField2.setText(" ");
-        jPanel2.add(jTextField2);
-        jTextField2.setBounds(140, 140, 69, 20);
-
-        jTextField3.setText(" ");
-        jPanel2.add(jTextField3);
-        jTextField3.setBounds(540, 140, 90, 20);
+        jTextField1.setBounds(140, 100, 570, 22);
 
         jTextField4.setText(" ");
         jPanel2.add(jTextField4);
-        jTextField4.setBounds(190, 180, 520, 20);
+        jTextField4.setBounds(190, 180, 520, 22);
 
         jTextField5.setText(" ");
         jPanel2.add(jTextField5);
-        jTextField5.setBounds(190, 210, 520, 170);
+        jTextField5.setBounds(190, 220, 520, 170);
 
         jButton3.setText("Cancel");
         jPanel2.add(jButton3);
-        jButton3.setBounds(90, 420, 65, 23);
+        jButton3.setBounds(90, 420, 71, 25);
 
         jButton4.setText("Create my Account");
         jPanel2.add(jButton4);
-        jButton4.setBounds(580, 420, 160, 23);
+        jButton4.setBounds(580, 420, 160, 25);
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Others" }));
+        jComboBox2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox2ActionPerformed(evt);
+            }
+        });
+        jPanel2.add(jComboBox2);
+        jComboBox2.setBounds(540, 140, 64, 22);
+
+        jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
+        jPanel2.add(jComboBox3);
+        jComboBox3.setBounds(150, 140, 50, 22);
+
+        jComboBox4.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
+        jPanel2.add(jComboBox4);
+        jComboBox4.setBounds(230, 140, 41, 22);
+
+        jComboBox5.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" }));
+        jPanel2.add(jComboBox5);
+        jComboBox5.setBounds(310, 140, 55, 22);
 
         javax.swing.GroupLayout f2Layout = new javax.swing.GroupLayout(f2.getContentPane());
         f2.getContentPane().setLayout(f2Layout);
@@ -330,7 +370,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel3.add(jPanel4);
         jPanel4.setBounds(340, 60, 170, 310);
         jPanel3.add(jScrollBar1);
-        jScrollBar1.setBounds(750, 50, 17, 360);
+        jScrollBar1.setBounds(750, 50, 21, 360);
 
         jPanel5.setLayout(null);
 
@@ -494,55 +534,55 @@ public class NewJFrame extends javax.swing.JFrame {
 
         uploadAPicture.setText("Upload a picture");
         jPanel7.add(uploadAPicture);
-        uploadAPicture.setBounds(140, 170, 240, 23);
+        uploadAPicture.setBounds(140, 170, 240, 25);
 
         jLabel12.setText("Time Range: From");
         jPanel7.add(jLabel12);
-        jLabel12.setBounds(140, 210, 120, 14);
+        jLabel12.setBounds(140, 210, 120, 16);
 
         jLabel17.setText("to");
         jPanel7.add(jLabel17);
-        jLabel17.setBounds(530, 210, 48, 14);
+        jLabel17.setBounds(530, 210, 48, 16);
 
         jCheckBox1.setText("p.m.");
         jPanel7.add(jCheckBox1);
-        jCheckBox1.setBounds(750, 240, 60, 23);
+        jCheckBox1.setBounds(750, 240, 60, 25);
 
         jCheckBox2.setText("a.m.");
         jPanel7.add(jCheckBox2);
-        jCheckBox2.setBounds(460, 210, 60, 23);
+        jCheckBox2.setBounds(460, 210, 60, 25);
 
         jCheckBox3.setText("a.m.");
         jPanel7.add(jCheckBox3);
-        jCheckBox3.setBounds(750, 210, 60, 23);
+        jCheckBox3.setBounds(750, 210, 60, 25);
 
         jCheckBox4.setText("p.m.");
         jPanel7.add(jCheckBox4);
-        jCheckBox4.setBounds(460, 240, 60, 23);
+        jCheckBox4.setBounds(460, 240, 60, 25);
         jPanel7.add(jTextField10);
-        jTextField10.setBounds(400, 210, 50, 20);
+        jTextField10.setBounds(400, 210, 50, 22);
         jPanel7.add(jTextField11);
-        jTextField11.setBounds(700, 210, 50, 20);
+        jTextField11.setBounds(700, 210, 50, 22);
 
         jLabel18.setText("Number of Servings(Interger only):");
         jPanel7.add(jLabel18);
-        jLabel18.setBounds(140, 330, 230, 14);
+        jLabel18.setBounds(140, 330, 230, 16);
 
         jTextField12.setText(" ");
         jPanel7.add(jTextField12);
-        jTextField12.setBounds(360, 330, 9, 20);
+        jTextField12.setBounds(360, 330, 10, 22);
 
         jLabel19.setText("Price [You don't have to charge people :)] : $");
         jPanel7.add(jLabel19);
-        jLabel19.setBounds(140, 370, 300, 14);
+        jLabel19.setBounds(140, 370, 300, 16);
 
         jTextField13.setText(" ");
         jPanel7.add(jTextField13);
-        jTextField13.setBounds(410, 370, 30, 20);
+        jTextField13.setBounds(410, 370, 30, 22);
 
         jLabel20.setText("per serving");
         jPanel7.add(jLabel20);
-        jLabel20.setBounds(450, 370, 110, 14);
+        jLabel20.setBounds(450, 370, 110, 16);
 
         jButton22.setText("Post");
         jPanel7.add(jButton22);
@@ -613,23 +653,23 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel21.setText("Time Range: From");
         jPanel8.add(jLabel21);
-        jLabel21.setBounds(140, 250, 120, 14);
+        jLabel21.setBounds(140, 250, 120, 16);
 
         jLabel28.setText("to");
         jPanel8.add(jLabel28);
-        jLabel28.setBounds(530, 250, 48, 14);
+        jLabel28.setBounds(530, 250, 48, 16);
 
         jLabel29.setText("Number of unclaimed Servings:");
         jPanel8.add(jLabel29);
-        jLabel29.setBounds(140, 360, 180, 14);
+        jLabel29.setBounds(140, 360, 180, 16);
 
         jLabel30.setText("Price : $");
         jPanel8.add(jLabel30);
-        jLabel30.setBounds(140, 400, 300, 14);
+        jLabel30.setBounds(140, 400, 300, 16);
 
         jLabel31.setText("/");
         jPanel8.add(jLabel31);
-        jLabel31.setBounds(380, 360, 10, 14);
+        jLabel31.setBounds(380, 360, 10, 16);
 
         jLabel32.setText(" ");
         jPanel8.add(jLabel32);
@@ -645,11 +685,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel36.setText(" ");
         jPanel8.add(jLabel36);
-        jLabel36.setBounds(330, 360, 3, 14);
+        jLabel36.setBounds(330, 360, 4, 16);
 
         jLabel37.setText(" ");
         jPanel8.add(jLabel37);
-        jLabel37.setBounds(420, 400, 3, 14);
+        jLabel37.setBounds(420, 400, 4, 16);
 
         jButton30.setText("Delete This Post");
         jPanel8.add(jButton30);
@@ -697,7 +737,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel43.setText("Time Range: From");
         jPanel9.add(jLabel43);
-        jLabel43.setBounds(140, 250, 120, 14);
+        jLabel43.setBounds(140, 250, 120, 16);
 
         jLabel44.setText(" ");
         jPanel9.add(jLabel44);
@@ -705,7 +745,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel46.setText("to");
         jPanel9.add(jLabel46);
-        jLabel46.setBounds(530, 250, 48, 14);
+        jLabel46.setBounds(530, 250, 48, 16);
 
         jLabel45.setText(" ");
         jPanel9.add(jLabel45);
@@ -717,7 +757,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel48.setText("Number of unclaimed Servings:");
         jPanel9.add(jLabel48);
-        jLabel48.setBounds(140, 310, 180, 14);
+        jLabel48.setBounds(140, 310, 180, 16);
 
         jLabel49.setText(" ");
         jPanel9.add(jLabel49);
@@ -725,7 +765,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel50.setText("/");
         jPanel9.add(jLabel50);
-        jLabel50.setBounds(380, 310, 10, 14);
+        jLabel50.setBounds(380, 310, 10, 16);
 
         jLabel51.setText(" ");
         jPanel9.add(jLabel51);
@@ -733,7 +773,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel52.setText("Price: $");
         jPanel9.add(jLabel52);
-        jLabel52.setBounds(140, 340, 90, 14);
+        jLabel52.setBounds(140, 340, 90, 16);
 
         jLabel53.setText(" ");
         jPanel9.add(jLabel53);
@@ -779,11 +819,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel55.setText("How many servings do you want?(Intergers only)");
         jPanel9.add(jLabel55);
-        jLabel55.setBounds(140, 370, 290, 14);
+        jLabel55.setBounds(140, 370, 290, 16);
 
         jTextField16.setText(" ");
         jPanel9.add(jTextField16);
-        jTextField16.setBounds(430, 370, 50, 20);
+        jTextField16.setBounds(430, 370, 50, 22);
 
         jLabel56.setText("City:");
         jPanel9.add(jLabel56);
@@ -816,6 +856,133 @@ public class NewJFrame extends javax.swing.JFrame {
             .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, 500, Short.MAX_VALUE)
         );
 
+        jPanel15.setBackground(new java.awt.Color(255, 255, 204));
+        jPanel15.setLayout(null);
+
+        jButton33.setText("jButton11");
+        jPanel15.add(jButton33);
+        jButton33.setBounds(10, 20, 40, 40);
+
+        jButton34.setText("History");
+        jPanel15.add(jButton34);
+        jButton34.setBounds(10, 80, 100, 80);
+
+        jButton35.setText("Notification");
+        jPanel15.add(jButton35);
+        jButton35.setBounds(10, 190, 100, 80);
+
+        jButton36.setText("Account");
+        jPanel15.add(jButton36);
+        jButton36.setBounds(10, 300, 100, 80);
+
+        jLabel61.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel61.setText("Account Setting");
+        jPanel15.add(jLabel61);
+        jLabel61.setBounds(280, 40, 230, 40);
+
+        jLabel62.setText(" ");
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 98, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(20, Short.MAX_VALUE))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addComponent(jLabel62, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(0, 18, Short.MAX_VALUE))
+        );
+
+        jPanel15.add(jPanel16);
+        jPanel16.setBounds(170, 90, 130, 100);
+
+        jButton37.setText("Choose File...");
+        jPanel15.add(jButton37);
+        jButton37.setBounds(330, 100, 150, 30);
+
+        jLabel63.setText("Username:");
+        jPanel15.add(jLabel63);
+        jLabel63.setBounds(330, 150, 90, 16);
+
+        jLabel64.setText("Password:");
+        jPanel15.add(jLabel64);
+        jLabel64.setBounds(330, 180, 80, 16);
+
+        jTextField17.setText(" ");
+        jPanel15.add(jTextField17);
+        jTextField17.setBounds(440, 150, 210, 22);
+
+        jLabel65.setText("Phone Number:");
+        jPanel15.add(jLabel65);
+        jLabel65.setBounds(180, 220, 110, 16);
+
+        jTextField18.setText(" ");
+        jPanel15.add(jTextField18);
+        jTextField18.setBounds(290, 220, 210, 22);
+        jPanel15.add(jPasswordField1);
+        jPasswordField1.setBounds(440, 180, 210, 22);
+
+        jLabel66.setText("Gender(M/F/O):");
+        jPanel15.add(jLabel66);
+        jLabel66.setBounds(180, 260, 120, 16);
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Others" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
+        jPanel15.add(jComboBox1);
+        jComboBox1.setBounds(290, 260, 64, 22);
+
+        jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" }));
+        jPanel15.add(jComboBox6);
+        jComboBox6.setBounds(590, 260, 80, 22);
+
+        jComboBox7.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
+        jPanel15.add(jComboBox7);
+        jComboBox7.setBounds(460, 260, 50, 22);
+
+        jComboBox8.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
+        jPanel15.add(jComboBox8);
+        jComboBox8.setBounds(530, 260, 41, 22);
+
+        jLabel67.setText("Birthday");
+        jPanel15.add(jLabel67);
+        jLabel67.setBounds(400, 260, 46, 16);
+
+        jLabel68.setText("Bio:");
+        jPanel15.add(jLabel68);
+        jLabel68.setBounds(180, 300, 22, 16);
+
+        jTextField2.setText(" ");
+        jPanel15.add(jTextField2);
+        jTextField2.setBounds(210, 300, 440, 90);
+
+        jButton38.setText("Submit Changes");
+        jPanel15.add(jButton38);
+        jButton38.setBounds(560, 410, 160, 40);
+
+        jButton39.setText("Cancel");
+        jPanel15.add(jButton39);
+        jButton39.setBounds(180, 410, 170, 40);
+
+        javax.swing.GroupLayout fALayout = new javax.swing.GroupLayout(fA.getContentPane());
+        fA.getContentPane().setLayout(fALayout);
+        fALayout.setHorizontalGroup(
+            fALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 809, Short.MAX_VALUE)
+        );
+        fALayout.setVerticalGroup(
+            fALayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addComponent(jPanel15, javax.swing.GroupLayout.DEFAULT_SIZE, 504, Short.MAX_VALUE)
+        );
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setPreferredSize(new java.awt.Dimension(800, 500));
         addWindowListener(new java.awt.event.WindowAdapter() {
@@ -825,11 +992,6 @@ public class NewJFrame extends javax.swing.JFrame {
         });
 
         jButton21.setText("OK");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -907,9 +1069,13 @@ f1.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jTextField15ActionPerformed
 
-    private void jButton21ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton21ActionPerformed
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_jButton21ActionPerformed
+    }//GEN-LAST:event_jComboBox1ActionPerformed
+
+    private void jComboBox2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -955,6 +1121,7 @@ f1.setVisible(true);
     private javax.swing.JFrame f5;
     private javax.swing.JFrame f6;
     private javax.swing.JFrame f7;
+    private javax.swing.JFrame fA;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
     private javax.swing.JButton jButton11;
@@ -981,6 +1148,13 @@ f1.setVisible(true);
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
+    private javax.swing.JButton jButton33;
+    private javax.swing.JButton jButton34;
+    private javax.swing.JButton jButton35;
+    private javax.swing.JButton jButton36;
+    private javax.swing.JButton jButton37;
+    private javax.swing.JButton jButton38;
+    private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
     private javax.swing.JButton jButton5;
     private javax.swing.JButton jButton6;
@@ -991,6 +1165,14 @@ f1.setVisible(true);
     private javax.swing.JCheckBox jCheckBox2;
     private javax.swing.JCheckBox jCheckBox3;
     private javax.swing.JCheckBox jCheckBox4;
+    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JComboBox<String> jComboBox2;
+    private javax.swing.JComboBox<String> jComboBox3;
+    private javax.swing.JComboBox<String> jComboBox4;
+    private javax.swing.JComboBox<String> jComboBox5;
+    private javax.swing.JComboBox<String> jComboBox6;
+    private javax.swing.JComboBox<String> jComboBox7;
+    private javax.swing.JComboBox<String> jComboBox8;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -1048,6 +1230,14 @@ f1.setVisible(true);
     private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel61;
+    private javax.swing.JLabel jLabel62;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
@@ -1057,6 +1247,8 @@ f1.setVisible(true);
     private javax.swing.JPanel jPanel12;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel15;
+    private javax.swing.JPanel jPanel16;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
@@ -1065,6 +1257,7 @@ f1.setVisible(true);
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
+    private javax.swing.JPasswordField jPasswordField1;
     private javax.swing.JScrollBar jScrollBar1;
     private javax.swing.JScrollBar jScrollBar3;
     private javax.swing.JTextField jTextField1;
@@ -1075,8 +1268,9 @@ f1.setVisible(true);
     private javax.swing.JTextField jTextField14;
     private javax.swing.JTextField jTextField15;
     private javax.swing.JTextField jTextField16;
+    private javax.swing.JTextField jTextField17;
+    private javax.swing.JTextField jTextField18;
     private javax.swing.JTextField jTextField2;
-    private javax.swing.JTextField jTextField3;
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
