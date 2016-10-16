@@ -1106,6 +1106,11 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jButton27.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton27.setText("Home");
+        jButton27.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton27ActionPerformed(evt);
+            }
+        });
         jPanel15.add(jButton27);
         jButton27.setBounds(10, 90, 100, 80);
 
@@ -1599,6 +1604,14 @@ fA.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
 fA.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton50ActionPerformed
+
+    private void jButton27ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton27ActionPerformed
+fA.dispose();
+f3.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+f3.setVisible(true);
+
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton27ActionPerformed
 
     /**
      * @param args the command line arguments
