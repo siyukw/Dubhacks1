@@ -1511,7 +1511,7 @@ f2.setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
-fhN.dispose();
+f3.dispose();
 f1.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
 f1.setVisible(true);
         // TODO add your handling code here:
