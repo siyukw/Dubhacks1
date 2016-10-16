@@ -1,8 +1,6 @@
-
+package dubhacks1;
 //
 import javax.swing.JOptionPane;
-import javax.swing.table.*;
-import java.util.Date;
 import java.sql.*;
 
 /*
@@ -10,7 +8,7 @@ import java.sql.*;
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-//package class dubhacks1 {}
+
 
 /**
  *
@@ -85,7 +83,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel12 = new javax.swing.JPanel();
         jLabel22 = new javax.swing.JLabel();
         jLabel23 = new javax.swing.JLabel();
-        jScrollBar3 = new javax.swing.JScrollBar();
         jPanel13 = new javax.swing.JPanel();
         jLabel24 = new javax.swing.JLabel();
         jLabel25 = new javax.swing.JLabel();
@@ -101,7 +98,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton12 = new javax.swing.JButton();
         jButton13 = new javax.swing.JButton();
         jButton14 = new javax.swing.JButton();
-        jTextField9 = new javax.swing.JTextField();
         uploadAPicture = new javax.swing.JButton();
         jLabel12 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
@@ -120,6 +116,8 @@ public class NewJFrame extends javax.swing.JFrame {
         jButton23 = new javax.swing.JButton();
         jTextField14 = new javax.swing.JTextField();
         jTextField15 = new javax.swing.JTextField();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        jTextArea2 = new javax.swing.JTextArea();
         f6 = new javax.swing.JFrame();
         jPanel8 = new javax.swing.JPanel();
         jButton24 = new javax.swing.JButton();
@@ -162,7 +160,6 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel42 = new javax.swing.JLabel();
         jButton32 = new javax.swing.JButton();
         jLabel54 = new javax.swing.JLabel();
-        jTextField7 = new javax.swing.JTextField();
         jLabel55 = new javax.swing.JLabel();
         jTextField16 = new javax.swing.JTextField();
         jLabel56 = new javax.swing.JLabel();
@@ -170,11 +167,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel58 = new javax.swing.JLabel();
         jLabel59 = new javax.swing.JLabel();
         jLabel60 = new javax.swing.JLabel();
+        jButton11 = new javax.swing.JButton();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
         fA = new javax.swing.JFrame();
         jPanel15 = new javax.swing.JPanel();
-        jButton34 = new javax.swing.JButton();
-        jButton35 = new javax.swing.JButton();
-        jButton36 = new javax.swing.JButton();
         jLabel61 = new javax.swing.JLabel();
         jPanel16 = new javax.swing.JPanel();
         jLabel62 = new javax.swing.JLabel();
@@ -195,17 +192,16 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextField2 = new javax.swing.JTextField();
         jButton38 = new javax.swing.JButton();
         jButton39 = new javax.swing.JButton();
+        jButton27 = new javax.swing.JButton();
+        jButton47 = new javax.swing.JButton();
+        jButton48 = new javax.swing.JButton();
         fN = new javax.swing.JFrame();
         jPanel17 = new javax.swing.JPanel();
-        jButton41 = new javax.swing.JButton();
-        jButton42 = new javax.swing.JButton();
-        jButton43 = new javax.swing.JButton();
         jLabel69 = new javax.swing.JLabel();
         jPanel18 = new javax.swing.JPanel();
         Foodpic1 = new javax.swing.JLabel();
         Nameofevent = new javax.swing.JLabel();
         dropoutbutton = new javax.swing.JButton();
-        jScrollBar2 = new javax.swing.JScrollBar();
         jPanel19 = new javax.swing.JPanel();
         Foodpic2 = new javax.swing.JLabel();
         Nameofevent1 = new javax.swing.JLabel();
@@ -218,13 +214,13 @@ public class NewJFrame extends javax.swing.JFrame {
         Foodpic3 = new javax.swing.JLabel();
         Nameofevent2 = new javax.swing.JLabel();
         dropoutbutton2 = new javax.swing.JButton();
+        jButton45 = new javax.swing.JButton();
+        jButton49 = new javax.swing.JButton();
+        jButton50 = new javax.swing.JButton();
         fhN = new javax.swing.JFrame();
         jPanel21 = new javax.swing.JPanel();
         jPanel22 = new javax.swing.JPanel();
         jLabel70 = new javax.swing.JLabel();
-        jButton33 = new javax.swing.JButton();
-        jButton40 = new javax.swing.JButton();
-        jButton44 = new javax.swing.JButton();
         jLabel71 = new javax.swing.JLabel();
         requestername = new javax.swing.JLabel();
         jLabel72 = new javax.swing.JLabel();
@@ -240,7 +236,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel76 = new javax.swing.JLabel();
         jLabel77 = new javax.swing.JLabel();
         jLabel78 = new javax.swing.JLabel();
-        jButton21 = new javax.swing.JButton();
+        jLabel79 = new javax.swing.JLabel();
+        jLabel80 = new javax.swing.JLabel();
+        jButton46 = new javax.swing.JButton();
+        jButton51 = new javax.swing.JButton();
+        jButton52 = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 204));
         jPanel1.setRequestFocusEnabled(false);
@@ -256,19 +256,22 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel1.add(p1);
         p1.setBounds(320, 230, 230, 22);
 
+        jLabel1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 18)); // NOI18N
         jLabel1.setText("Username:");
         jPanel1.add(jLabel1);
-        jLabel1.setBounds(210, 170, 90, 16);
+        jLabel1.setBounds(210, 170, 90, 25);
 
+        jLabel2.setFont(new java.awt.Font("Tempus Sans ITC", 0, 18)); // NOI18N
         jLabel2.setText("Password:");
         jPanel1.add(jLabel2);
-        jLabel2.setBounds(210, 240, 80, 16);
+        jLabel2.setBounds(210, 230, 80, 25);
 
-        jLabel3.setFont(new java.awt.Font("Tw Cen MT Condensed Extra Bold", 0, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("AR CENA", 0, 48)); // NOI18N
         jLabel3.setText("Up for Grabs");
         jPanel1.add(jLabel3);
-        jLabel3.setBounds(280, 90, 210, 40);
+        jLabel3.setBounds(240, 70, 400, 60);
 
+        jButton1.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton1.setText("Create Account");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -276,8 +279,9 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton1);
-        jButton1.setBounds(70, 400, 140, 40);
+        jButton1.setBounds(70, 380, 190, 60);
 
+        jButton2.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton2.setText("Login");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -285,7 +289,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel1.add(jButton2);
-        jButton2.setBounds(580, 410, 160, 40);
+        jButton2.setBounds(550, 380, 190, 60);
 
         javax.swing.GroupLayout f1Layout = new javax.swing.GroupLayout(f1.getContentPane());
         f1.getContentPane().setLayout(f1Layout);
@@ -307,30 +311,35 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel2.setBackground(new java.awt.Color(255, 255, 204));
         jPanel2.setLayout(null);
 
-        jLabel4.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("AR CENA", 0, 48)); // NOI18N
         jLabel4.setText("Create Account");
         jPanel2.add(jLabel4);
-        jLabel4.setBounds(330, 40, 120, 50);
+        jLabel4.setBounds(260, 40, 410, 50);
 
+        jLabel5.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel5.setText("Name");
         jPanel2.add(jLabel5);
-        jLabel5.setBounds(90, 100, 33, 16);
+        jLabel5.setBounds(90, 100, 50, 19);
 
+        jLabel6.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel6.setText("Birthday");
         jPanel2.add(jLabel6);
-        jLabel6.setBounds(90, 140, 70, 16);
+        jLabel6.setBounds(90, 140, 70, 19);
 
-        jLabel7.setText("Gender(M/F/O)");
+        jLabel7.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jLabel7.setText("Gender");
         jPanel2.add(jLabel7);
-        jLabel7.setBounds(440, 130, 110, 30);
+        jLabel7.setBounds(490, 140, 70, 30);
 
+        jLabel8.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel8.setText("Phone Number");
         jPanel2.add(jLabel8);
-        jLabel8.setBounds(90, 180, 110, 16);
+        jLabel8.setBounds(90, 180, 110, 19);
 
+        jLabel9.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel9.setText("Brief Description");
         jPanel2.add(jLabel9);
-        jLabel9.setBounds(90, 210, 120, 16);
+        jLabel9.setBounds(90, 220, 120, 16);
 
         jTextField1.setText(" ");
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
@@ -349,13 +358,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel2.add(jTextField5);
         jTextField5.setBounds(190, 220, 520, 170);
 
+        jButton3.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton3.setText("Cancel");
         jPanel2.add(jButton3);
-        jButton3.setBounds(90, 420, 71, 25);
+        jButton3.setBounds(90, 420, 210, 50);
 
+        jButton4.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton4.setText("Create my Account");
         jPanel2.add(jButton4);
-        jButton4.setBounds(580, 420, 160, 25);
+        jButton4.setBounds(500, 420, 240, 50);
 
         jComboBox2.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Others" }));
         jComboBox2.addActionListener(new java.awt.event.ActionListener() {
@@ -396,6 +407,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel3.add(jTextField6);
         jTextField6.setBounds(40, 10, 600, 30);
 
+        jButton6.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton6.setText("Search");
         jPanel3.add(jButton6);
         jButton6.setBounds(640, 10, 140, 30);
@@ -439,18 +451,27 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel3.add(jPanel6);
         jPanel6.setBounds(130, 60, 180, 310);
 
+        jButton7.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton7.setText("Account");
         jPanel3.add(jButton7);
         jButton7.setBounds(10, 280, 100, 80);
 
+        jButton8.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton8.setText("Home");
+        jButton8.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton8ActionPerformed(evt);
+            }
+        });
         jPanel3.add(jButton8);
         jButton8.setBounds(10, 70, 100, 80);
 
+        jButton9.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton9.setText("Notification");
         jPanel3.add(jButton9);
         jButton9.setBounds(10, 180, 100, 80);
 
+        jButton20.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton20.setText("Write a post...");
         jPanel3.add(jButton20);
         jButton20.setBounds(90, 420, 670, 60);
@@ -487,6 +508,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel11.add(jTextField8);
         jTextField8.setBounds(40, 20, 570, 30);
 
+        jButton16.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton16.setText("Search");
         jPanel11.add(jButton16);
         jButton16.setBounds(610, 20, 140, 30);
@@ -502,9 +524,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel23.setBounds(10, 190, 130, 40);
 
         jPanel11.add(jPanel12);
-        jPanel12.setBounds(330, 60, 170, 310);
-        jPanel11.add(jScrollBar3);
-        jScrollBar3.setBounds(730, 60, 20, 330);
+        jPanel12.setBounds(330, 70, 170, 310);
 
         jPanel13.setLayout(null);
 
@@ -544,12 +564,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jLabel27.setBounds(0, 190, 130, 40);
 
         jPanel11.add(jPanel14);
-        jPanel14.setBounds(120, 60, 170, 320);
+        jPanel14.setBounds(120, 70, 170, 310);
 
+        jButton17.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton17.setText("Account");
         jPanel11.add(jButton17);
         jButton17.setBounds(10, 300, 100, 80);
 
+        jButton18.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton18.setText("Home");
         jButton18.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -559,6 +581,7 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel11.add(jButton18);
         jButton18.setBounds(10, 70, 100, 80);
 
+        jButton19.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton19.setText("Notification");
         jPanel11.add(jButton19);
         jButton19.setBounds(10, 180, 100, 80);
@@ -577,33 +600,35 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel7.setBackground(new java.awt.Color(255, 255, 204));
         jPanel7.setLayout(null);
 
+        jButton12.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton12.setText("Home");
         jPanel7.add(jButton12);
         jButton12.setBounds(10, 70, 100, 80);
 
+        jButton13.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton13.setText("Notification");
         jPanel7.add(jButton13);
         jButton13.setBounds(10, 160, 100, 80);
 
+        jButton14.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton14.setText("Account");
         jPanel7.add(jButton14);
         jButton14.setBounds(10, 250, 100, 80);
 
-        jTextField9.setText("Write a description...");
-        jPanel7.add(jTextField9);
-        jTextField9.setBounds(140, 70, 660, 90);
-
+        uploadAPicture.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         uploadAPicture.setText("Upload a picture");
         jPanel7.add(uploadAPicture);
-        uploadAPicture.setBounds(140, 170, 240, 25);
+        uploadAPicture.setBounds(140, 170, 240, 30);
 
+        jLabel12.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel12.setText("Time Range: From");
         jPanel7.add(jLabel12);
-        jLabel12.setBounds(140, 210, 120, 16);
+        jLabel12.setBounds(140, 210, 120, 19);
 
+        jLabel17.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel17.setText("to");
         jPanel7.add(jLabel17);
-        jLabel17.setBounds(530, 210, 48, 16);
+        jLabel17.setBounds(530, 210, 48, 19);
 
         jCheckBox1.setText("p.m.");
         jPanel7.add(jCheckBox1);
@@ -625,33 +650,38 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel7.add(jTextField11);
         jTextField11.setBounds(700, 210, 50, 22);
 
+        jLabel18.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel18.setText("Number of Servings(Interger only):");
         jPanel7.add(jLabel18);
-        jLabel18.setBounds(140, 330, 230, 16);
+        jLabel18.setBounds(140, 330, 230, 19);
 
         jTextField12.setText(" ");
         jPanel7.add(jTextField12);
-        jTextField12.setBounds(360, 330, 10, 22);
+        jTextField12.setBounds(360, 330, 60, 22);
 
+        jLabel19.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel19.setText("Price [You don't have to charge people :)] : $");
         jPanel7.add(jLabel19);
-        jLabel19.setBounds(140, 370, 300, 16);
+        jLabel19.setBounds(140, 370, 300, 19);
 
         jTextField13.setText(" ");
         jPanel7.add(jTextField13);
         jTextField13.setBounds(410, 370, 30, 22);
 
+        jLabel20.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel20.setText("per serving");
         jPanel7.add(jLabel20);
-        jLabel20.setBounds(450, 370, 110, 16);
+        jLabel20.setBounds(450, 370, 110, 19);
 
+        jButton22.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton22.setText("Post");
         jPanel7.add(jButton22);
-        jButton22.setBounds(620, 420, 140, 40);
+        jButton22.setBounds(540, 400, 230, 50);
 
+        jButton23.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton23.setText("Cancel");
         jPanel7.add(jButton23);
-        jButton23.setBounds(90, 410, 130, 40);
+        jButton23.setBounds(140, 400, 210, 50);
 
         jTextField14.setText("MM/DD/YYYY");
         jPanel7.add(jTextField14);
@@ -665,6 +695,14 @@ public class NewJFrame extends javax.swing.JFrame {
         });
         jPanel7.add(jTextField15);
         jTextField15.setBounds(260, 210, 110, 20);
+
+        jTextArea2.setColumns(20);
+        jTextArea2.setRows(5);
+        jTextArea2.setText("Write a description...");
+        jScrollPane2.setViewportView(jTextArea2);
+
+        jPanel7.add(jScrollPane2);
+        jScrollPane2.setBounds(140, 60, 630, 90);
 
         javax.swing.GroupLayout f5Layout = new javax.swing.GroupLayout(f5.getContentPane());
         f5.getContentPane().setLayout(f5Layout);
@@ -680,14 +718,17 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel8.setBackground(new java.awt.Color(255, 255, 204));
         jPanel8.setLayout(null);
 
+        jButton24.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton24.setText("Account");
         jPanel8.add(jButton24);
         jButton24.setBounds(10, 250, 100, 80);
 
+        jButton25.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton25.setText("Notification");
         jPanel8.add(jButton25);
         jButton25.setBounds(10, 160, 100, 80);
 
+        jButton26.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton26.setText("Home");
         jPanel8.add(jButton26);
         jButton26.setBounds(10, 70, 100, 80);
@@ -708,21 +749,25 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel8.add(PicofFood);
         PicofFood.setBounds(150, 60, 240, 170);
 
+        jLabel21.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel21.setText("Time Range: From");
         jPanel8.add(jLabel21);
-        jLabel21.setBounds(140, 250, 120, 16);
+        jLabel21.setBounds(140, 250, 120, 19);
 
+        jLabel28.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel28.setText("to");
         jPanel8.add(jLabel28);
-        jLabel28.setBounds(530, 250, 48, 16);
+        jLabel28.setBounds(530, 250, 48, 19);
 
+        jLabel29.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel29.setText("Number of unclaimed Servings:");
         jPanel8.add(jLabel29);
-        jLabel29.setBounds(140, 360, 180, 16);
+        jLabel29.setBounds(140, 360, 210, 19);
 
+        jLabel30.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel30.setText("Price : $");
         jPanel8.add(jLabel30);
-        jLabel30.setBounds(140, 400, 300, 16);
+        jLabel30.setBounds(140, 400, 300, 19);
 
         jLabel31.setText("/");
         jPanel8.add(jLabel31);
@@ -748,9 +793,10 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel8.add(jLabel37);
         jLabel37.setBounds(420, 400, 4, 16);
 
+        jButton30.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton30.setText("Delete This Post");
         jPanel8.add(jButton30);
-        jButton30.setBounds(540, 420, 220, 50);
+        jButton30.setBounds(540, 410, 220, 50);
         jPanel8.add(jLabel38);
         jLabel38.setBounds(470, 70, 0, 0);
 
@@ -780,29 +826,34 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel9.setBackground(new java.awt.Color(255, 255, 204));
         jPanel9.setLayout(null);
 
+        jButton28.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
         jButton28.setText("Notification");
         jPanel9.add(jButton28);
         jButton28.setBounds(10, 160, 100, 80);
 
+        jButton29.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton29.setText("Account");
         jPanel9.add(jButton29);
         jButton29.setBounds(10, 250, 100, 80);
 
+        jButton31.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jButton31.setText("Home");
         jPanel9.add(jButton31);
         jButton31.setBounds(10, 70, 100, 80);
 
+        jLabel43.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel43.setText("Time Range: From");
         jPanel9.add(jLabel43);
-        jLabel43.setBounds(140, 250, 120, 16);
+        jLabel43.setBounds(140, 250, 120, 19);
 
         jLabel44.setText(" ");
         jPanel9.add(jLabel44);
         jLabel44.setBounds(260, 240, 240, 40);
 
+        jLabel46.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel46.setText("to");
         jPanel9.add(jLabel46);
-        jLabel46.setBounds(530, 250, 48, 16);
+        jLabel46.setBounds(530, 250, 48, 19);
 
         jLabel45.setText(" ");
         jPanel9.add(jLabel45);
@@ -812,9 +863,10 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel9.add(jLabel47);
         jLabel47.setBounds(560, 240, 240, 50);
 
+        jLabel48.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel48.setText("Number of unclaimed Servings:");
         jPanel9.add(jLabel48);
-        jLabel48.setBounds(140, 310, 180, 16);
+        jLabel48.setBounds(140, 320, 190, 19);
 
         jLabel49.setText(" ");
         jPanel9.add(jLabel49);
@@ -822,15 +874,16 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel50.setText("/");
         jPanel9.add(jLabel50);
-        jLabel50.setBounds(380, 310, 10, 16);
+        jLabel50.setBounds(400, 320, 10, 16);
 
         jLabel51.setText(" ");
         jPanel9.add(jLabel51);
         jLabel51.setBounds(400, 310, 110, 30);
 
+        jLabel52.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel52.setText("Price: $");
         jPanel9.add(jLabel52);
-        jLabel52.setBounds(140, 340, 90, 16);
+        jLabel52.setBounds(140, 340, 90, 19);
 
         jLabel53.setText(" ");
         jPanel9.add(jLabel53);
@@ -858,45 +911,59 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel9.add(jPanel10);
         jPanel10.setBounds(160, 50, 190, 180);
 
+        jButton32.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton32.setText("Ask for a Bite");
         jPanel9.add(jButton32);
         jButton32.setBounds(520, 410, 190, 50);
 
+        jLabel54.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel54.setText("Send a short message:");
         jPanel9.add(jLabel54);
         jLabel54.setBounds(140, 400, 140, 40);
 
-        jTextField7.setText(" ");
-        jPanel9.add(jTextField7);
-        jTextField7.setBounds(280, 410, 170, 50);
-
+        jLabel55.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel55.setText("How many servings do you want?(Intergers only)");
         jPanel9.add(jLabel55);
-        jLabel55.setBounds(140, 370, 290, 16);
+        jLabel55.setBounds(140, 370, 310, 19);
 
         jTextField16.setText(" ");
         jPanel9.add(jTextField16);
-        jTextField16.setBounds(430, 370, 50, 22);
+        jTextField16.setBounds(450, 370, 50, 22);
 
+        jLabel56.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel56.setText("City:");
         jPanel9.add(jLabel56);
-        jLabel56.setBounds(140, 290, 26, 16);
+        jLabel56.setBounds(140, 290, 60, 19);
 
         jLabel57.setText(" ");
         jPanel9.add(jLabel57);
         jLabel57.setBounds(170, 290, 90, 20);
 
+        jLabel58.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel58.setText("Distance:");
         jPanel9.add(jLabel58);
-        jLabel58.setBounds(330, 290, 80, 16);
+        jLabel58.setBounds(330, 290, 80, 19);
 
         jLabel59.setText("  ");
         jPanel9.add(jLabel59);
         jLabel59.setBounds(410, 280, 80, 30);
 
+        jLabel60.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel60.setText("miles away from you");
         jPanel9.add(jLabel60);
-        jLabel60.setBounds(510, 290, 250, 16);
+        jLabel60.setBounds(510, 290, 250, 19);
+
+        jButton11.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
+        jButton11.setText("Cancel");
+        jPanel9.add(jButton11);
+        jButton11.setBounds(590, 360, 120, 40);
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
+
+        jPanel9.add(jScrollPane1);
+        jScrollPane1.setBounds(290, 410, 200, 70);
 
         javax.swing.GroupLayout f7Layout = new javax.swing.GroupLayout(f7.getContentPane());
         f7.getContentPane().setLayout(f7Layout);
@@ -912,22 +979,10 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel15.setBackground(new java.awt.Color(255, 255, 204));
         jPanel15.setLayout(null);
 
-        jButton34.setText("Home");
-        jPanel15.add(jButton34);
-        jButton34.setBounds(10, 80, 100, 80);
-
-        jButton35.setText("Notification");
-        jPanel15.add(jButton35);
-        jButton35.setBounds(10, 190, 100, 80);
-
-        jButton36.setText("Account");
-        jPanel15.add(jButton36);
-        jButton36.setBounds(10, 300, 100, 80);
-
-        jLabel61.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel61.setFont(new java.awt.Font("AR CENA", 0, 48)); // NOI18N
         jLabel61.setText("Account Setting");
         jPanel15.add(jLabel61);
-        jLabel61.setBounds(280, 40, 230, 40);
+        jLabel61.setBounds(200, 30, 400, 50);
 
         jLabel62.setText(" ");
 
@@ -950,25 +1005,29 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel15.add(jPanel16);
         jPanel16.setBounds(170, 90, 130, 100);
 
+        jButton37.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton37.setText("Choose File...");
         jPanel15.add(jButton37);
         jButton37.setBounds(330, 100, 150, 30);
 
+        jLabel63.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel63.setText("Username:");
         jPanel15.add(jLabel63);
-        jLabel63.setBounds(330, 150, 90, 16);
+        jLabel63.setBounds(330, 150, 90, 19);
 
+        jLabel64.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel64.setText("Password:");
         jPanel15.add(jLabel64);
-        jLabel64.setBounds(330, 180, 80, 16);
+        jLabel64.setBounds(330, 180, 80, 19);
 
         jTextField17.setText(" ");
         jPanel15.add(jTextField17);
         jTextField17.setBounds(440, 150, 210, 22);
 
+        jLabel65.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel65.setText("Phone Number:");
         jPanel15.add(jLabel65);
-        jLabel65.setBounds(180, 220, 110, 16);
+        jLabel65.setBounds(180, 220, 110, 19);
 
         jTextField18.setText(" ");
         jPanel15.add(jTextField18);
@@ -976,9 +1035,10 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel15.add(jPasswordField1);
         jPasswordField1.setBounds(440, 180, 210, 22);
 
-        jLabel66.setText("Gender(M/F/O):");
+        jLabel66.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jLabel66.setText("Gender:");
         jPanel15.add(jLabel66);
-        jLabel66.setBounds(180, 260, 120, 16);
+        jLabel66.setBounds(180, 260, 60, 19);
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Male", "Female", "Others" }));
         jComboBox1.addActionListener(new java.awt.event.ActionListener() {
@@ -987,7 +1047,7 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
         jPanel15.add(jComboBox1);
-        jComboBox1.setBounds(290, 260, 64, 22);
+        jComboBox1.setBounds(240, 260, 64, 22);
 
         jComboBox6.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" }));
         jPanel15.add(jComboBox6);
@@ -1001,25 +1061,44 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel15.add(jComboBox8);
         jComboBox8.setBounds(530, 260, 41, 22);
 
+        jLabel67.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel67.setText("Birthday");
         jPanel15.add(jLabel67);
-        jLabel67.setBounds(400, 260, 46, 16);
+        jLabel67.setBounds(400, 260, 60, 19);
 
+        jLabel68.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel68.setText("Bio:");
         jPanel15.add(jLabel68);
-        jLabel68.setBounds(180, 300, 22, 16);
+        jLabel68.setBounds(180, 300, 30, 19);
 
         jTextField2.setText(" ");
         jPanel15.add(jTextField2);
         jTextField2.setBounds(210, 300, 440, 90);
 
+        jButton38.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton38.setText("Submit Changes");
         jPanel15.add(jButton38);
-        jButton38.setBounds(560, 410, 160, 40);
+        jButton38.setBounds(560, 410, 180, 40);
 
+        jButton39.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton39.setText("Cancel");
         jPanel15.add(jButton39);
         jButton39.setBounds(180, 410, 170, 40);
+
+        jButton27.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jButton27.setText("Home");
+        jPanel15.add(jButton27);
+        jButton27.setBounds(10, 90, 100, 80);
+
+        jButton47.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
+        jButton47.setText("Notification");
+        jPanel15.add(jButton47);
+        jButton47.setBounds(10, 180, 100, 80);
+
+        jButton48.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jButton48.setText("Account");
+        jPanel15.add(jButton48);
+        jButton48.setBounds(10, 270, 100, 80);
 
         javax.swing.GroupLayout fALayout = new javax.swing.GroupLayout(fA.getContentPane());
         fA.getContentPane().setLayout(fALayout);
@@ -1035,25 +1114,14 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel17.setBackground(new java.awt.Color(255, 255, 204));
         jPanel17.setLayout(null);
 
-        jButton41.setText("Home");
-        jPanel17.add(jButton41);
-        jButton41.setBounds(10, 80, 100, 80);
-
-        jButton42.setText("Notification");
-        jPanel17.add(jButton42);
-        jButton42.setBounds(10, 190, 100, 80);
-
-        jButton43.setText("Account");
-        jPanel17.add(jButton43);
-        jButton43.setBounds(10, 300, 100, 80);
-
-        jLabel69.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel69.setFont(new java.awt.Font("AR CENA", 0, 48)); // NOI18N
         jLabel69.setText("Notifications");
         jPanel17.add(jLabel69);
-        jLabel69.setBounds(290, 30, 230, 40);
+        jLabel69.setBounds(290, 30, 320, 50);
 
         Nameofevent.setText(" ");
 
+        dropoutbutton.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         dropoutbutton.setText("Close");
 
         javax.swing.GroupLayout jPanel18Layout = new javax.swing.GroupLayout(jPanel18);
@@ -1083,7 +1151,7 @@ public class NewJFrame extends javax.swing.JFrame {
                         .addContainerGap())
                     .addGroup(jPanel18Layout.createSequentialGroup()
                         .addComponent(Nameofevent, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 23, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 17, Short.MAX_VALUE)
                         .addComponent(dropoutbutton)
                         .addGap(21, 21, 21))))
         );
@@ -1091,16 +1159,15 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel17.add(jPanel18);
         jPanel18.setBounds(160, 350, 540, 110);
 
-        jScrollBar2.setBorder(javax.swing.BorderFactory.createEmptyBorder(1, 1, 1, 1));
-        jPanel17.add(jScrollBar2);
-        jScrollBar2.setBounds(750, 90, 21, 390);
-
         Nameofevent1.setText(" ");
 
+        time1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         time1.setText("Time:");
 
+        address1.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         address1.setText("Address:");
 
+        dropoutbutton1.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         dropoutbutton1.setText("Drop Out");
 
         timeforevent1.setText(" ");
@@ -1159,6 +1226,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         Nameofevent2.setText(" ");
 
+        dropoutbutton2.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         dropoutbutton2.setText("Close");
 
         javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
@@ -1185,7 +1253,7 @@ public class NewJFrame extends javax.swing.JFrame {
                 .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel20Layout.createSequentialGroup()
                         .addComponent(Nameofevent2, javax.swing.GroupLayout.PREFERRED_SIZE, 28, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 31, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 25, Short.MAX_VALUE)
                         .addComponent(dropoutbutton2))
                     .addComponent(Foodpic3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
@@ -1193,6 +1261,21 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jPanel17.add(jPanel20);
         jPanel20.setBounds(160, 220, 540, 110);
+
+        jButton45.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jButton45.setText("Home");
+        jPanel17.add(jButton45);
+        jButton45.setBounds(10, 90, 100, 80);
+
+        jButton49.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
+        jButton49.setText("Notification");
+        jPanel17.add(jButton49);
+        jButton49.setBounds(10, 190, 100, 80);
+
+        jButton50.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jButton50.setText("Account");
+        jPanel17.add(jButton50);
+        jButton50.setBounds(10, 280, 100, 80);
 
         javax.swing.GroupLayout fNLayout = new javax.swing.GroupLayout(fN.getContentPane());
         fN.getContentPane().setLayout(fNLayout);
@@ -1228,79 +1311,104 @@ public class NewJFrame extends javax.swing.JFrame {
         );
 
         jPanel21.add(jPanel22);
-        jPanel22.setBounds(160, 50, 190, 180);
+        jPanel22.setBounds(170, 70, 190, 180);
 
-        jButton33.setText("Home");
-        jPanel21.add(jButton33);
-        jButton33.setBounds(10, 70, 100, 80);
-
-        jButton40.setText("Notification");
-        jPanel21.add(jButton40);
-        jButton40.setBounds(10, 160, 100, 80);
-
-        jButton44.setText("Account");
-        jPanel21.add(jButton44);
-        jButton44.setBounds(10, 250, 100, 80);
-
+        jLabel71.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel71.setText("Name:");
         jPanel21.add(jLabel71);
-        jLabel71.setBounds(390, 60, 38, 16);
+        jLabel71.setBounds(400, 80, 50, 19);
 
         requestername.setText(" ");
         jPanel21.add(requestername);
-        requestername.setBounds(450, 50, 250, 30);
+        requestername.setBounds(460, 70, 250, 30);
 
+        jLabel72.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel72.setText("Gender:");
         jPanel21.add(jLabel72);
-        jLabel72.setBounds(390, 140, 46, 16);
+        jLabel72.setBounds(400, 160, 46, 19);
 
         genderfhN.setText(" ");
         jPanel21.add(genderfhN);
-        genderfhN.setBounds(460, 140, 190, 50);
+        genderfhN.setBounds(470, 160, 190, 50);
 
+        jButton5.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton5.setText("Come and Grab A Bite!");
         jPanel21.add(jButton5);
         jButton5.setBounds(500, 400, 220, 60);
 
+        jButton10.setFont(new java.awt.Font("AR CENA", 0, 18)); // NOI18N
         jButton10.setText("Oops, sorry!");
         jPanel21.add(jButton10);
         jButton10.setBounds(120, 400, 240, 60);
 
+        jLabel73.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel73.setText("Birthday:");
         jPanel21.add(jLabel73);
-        jLabel73.setBounds(390, 210, 70, 16);
+        jLabel73.setBounds(400, 230, 70, 19);
 
         jComboBox9.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec" }));
         jPanel21.add(jComboBox9);
-        jComboBox9.setBounds(460, 210, 50, 22);
+        jComboBox9.setBounds(470, 230, 50, 22);
 
         jComboBox10.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31" }));
         jPanel21.add(jComboBox10);
-        jComboBox10.setBounds(530, 210, 41, 22);
+        jComboBox10.setBounds(540, 230, 41, 22);
 
         jComboBox11.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1900", "1901", "1902", "1903", "1904", "1905", "1906", "1907", "1908", "1909", "1910", "1911", "1912", "1913", "1914", "1915", "1916", "1917", "1918", "1919", "1920", "1921", "1922", "1923", "1924", "1925", "1926", "1927", "1928", "1929", "1930", "1931", "1932", "1933", "1934", "1935", "1936", "1937", "1938", "1939", "1940", "1941", "1942", "1943", "1944", "1945", "1946", "1947", "1948", "1949", "1950", "1951", "1952", "1953", "1954", "1955", "1956", "1957", "1958", "1959", "1960", "1961", "1962", "1963", "1964", "1965", "1966", "1967", "1968", "1969", "1970", "1971", "1972", "1973", "1974", "1975", "1976", "1977", "1978", "1979", "1980", "1981", "1982", "1983", "1984", "1985", "1986", "1987", "1988", "1989", "1990", "1991", "1992", "1993", "1994", "1995", "1996", "1997", "1998", "1999", "2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012", "2013", "2014", "2015", "2016" }));
         jPanel21.add(jComboBox11);
-        jComboBox11.setBounds(590, 210, 80, 22);
+        jComboBox11.setBounds(600, 230, 80, 22);
 
+        jLabel74.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel74.setText("Bio:");
         jPanel21.add(jLabel74);
-        jLabel74.setBounds(170, 260, 22, 30);
+        jLabel74.setBounds(180, 280, 40, 30);
 
         jLabel75.setText(" ");
         jPanel21.add(jLabel75);
-        jLabel75.setBounds(210, 260, 460, 30);
+        jLabel75.setBounds(220, 280, 460, 30);
 
+        jLabel76.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel76.setText("Message:");
         jPanel21.add(jLabel76);
-        jLabel76.setBounds(170, 310, 90, 16);
+        jLabel76.setBounds(180, 320, 100, 20);
 
         jLabel77.setText(" ");
         jPanel21.add(jLabel77);
-        jLabel77.setBounds(270, 310, 220, 70);
+        jLabel77.setBounds(230, 310, 220, 70);
 
+        jLabel78.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
         jLabel78.setText("Number of servings");
         jPanel21.add(jLabel78);
-        jLabel78.setBounds(448, 310, 150, 20);
+        jLabel78.setBounds(460, 320, 150, 20);
+
+        jLabel79.setFont(new java.awt.Font("AR CENA", 0, 48)); // NOI18N
+        jLabel79.setText("Profile Page");
+        jPanel21.add(jLabel79);
+        jLabel79.setBounds(300, 10, 330, 60);
+
+        jLabel80.setText(" ");
+        jPanel21.add(jLabel80);
+        jLabel80.setBounds(590, 316, 48, 30);
+
+        jButton46.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jButton46.setText("Home");
+        jButton46.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton46ActionPerformed(evt);
+            }
+        });
+        jPanel21.add(jButton46);
+        jButton46.setBounds(10, 70, 100, 80);
+
+        jButton51.setFont(new java.awt.Font("Tempus Sans ITC", 0, 12)); // NOI18N
+        jButton51.setText("Notification");
+        jPanel21.add(jButton51);
+        jButton51.setBounds(10, 160, 100, 80);
+
+        jButton52.setFont(new java.awt.Font("Tempus Sans ITC", 0, 14)); // NOI18N
+        jButton52.setText("Account");
+        jPanel21.add(jButton52);
+        jButton52.setBounds(10, 250, 100, 80);
 
         javax.swing.GroupLayout fhNLayout = new javax.swing.GroupLayout(fhN.getContentPane());
         fhN.getContentPane().setLayout(fhNLayout);
@@ -1320,28 +1428,15 @@ public class NewJFrame extends javax.swing.JFrame {
             }
         });
 
-        jButton21.setText("OK");
-        jButton21.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton21ActionPerformed(evt);
-            }
-        });
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(247, 247, 247)
-                .addComponent(jButton21)
-                .addContainerGap(504, Short.MAX_VALUE))
+            .addGap(0, 798, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                .addContainerGap(288, Short.MAX_VALUE)
-                .addComponent(jButton21)
-                .addGap(187, 187, 187))
+            .addGap(0, 498, Short.MAX_VALUE)
         );
 
         pack();
@@ -1420,6 +1515,17 @@ f2.setVisible(true);
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
 
+    private void jButton46ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton46ActionPerformed
+f3.dispose();
+f1.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
+f1.setVisible(true);
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton46ActionPerformed
+
+    private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton8ActionPerformed
+
     /**
      * @param args the command line arguments
      */
@@ -1481,6 +1587,7 @@ f2.setVisible(true);
     private javax.swing.JLabel genderfhN;
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton10;
+    private javax.swing.JButton jButton11;
     private javax.swing.JButton jButton12;
     private javax.swing.JButton jButton13;
     private javax.swing.JButton jButton14;
@@ -1490,32 +1597,31 @@ f2.setVisible(true);
     private javax.swing.JButton jButton19;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton20;
-    private javax.swing.JButton jButton21;
     private javax.swing.JButton jButton22;
     private javax.swing.JButton jButton23;
     private javax.swing.JButton jButton24;
     private javax.swing.JButton jButton25;
     private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
     private javax.swing.JButton jButton28;
     private javax.swing.JButton jButton29;
     private javax.swing.JButton jButton3;
     private javax.swing.JButton jButton30;
     private javax.swing.JButton jButton31;
     private javax.swing.JButton jButton32;
-    private javax.swing.JButton jButton33;
-    private javax.swing.JButton jButton34;
-    private javax.swing.JButton jButton35;
-    private javax.swing.JButton jButton36;
     private javax.swing.JButton jButton37;
     private javax.swing.JButton jButton38;
     private javax.swing.JButton jButton39;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton40;
-    private javax.swing.JButton jButton41;
-    private javax.swing.JButton jButton42;
-    private javax.swing.JButton jButton43;
-    private javax.swing.JButton jButton44;
+    private javax.swing.JButton jButton45;
+    private javax.swing.JButton jButton46;
+    private javax.swing.JButton jButton47;
+    private javax.swing.JButton jButton48;
+    private javax.swing.JButton jButton49;
     private javax.swing.JButton jButton5;
+    private javax.swing.JButton jButton50;
+    private javax.swing.JButton jButton51;
+    private javax.swing.JButton jButton52;
     private javax.swing.JButton jButton6;
     private javax.swing.JButton jButton7;
     private javax.swing.JButton jButton8;
@@ -1611,7 +1717,9 @@ f2.setVisible(true);
     private javax.swing.JLabel jLabel76;
     private javax.swing.JLabel jLabel77;
     private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel80;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane1;
     private javax.swing.JLayeredPane jLayeredPane2;
@@ -1638,8 +1746,10 @@ f2.setVisible(true);
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JPasswordField jPasswordField1;
-    private javax.swing.JScrollBar jScrollBar2;
-    private javax.swing.JScrollBar jScrollBar3;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextArea jTextArea2;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField10;
     private javax.swing.JTextField jTextField11;
@@ -1654,9 +1764,7 @@ f2.setVisible(true);
     private javax.swing.JTextField jTextField4;
     private javax.swing.JTextField jTextField5;
     private javax.swing.JTextField jTextField6;
-    private javax.swing.JTextField jTextField7;
     private javax.swing.JTextField jTextField8;
-    private javax.swing.JTextField jTextField9;
     private javax.swing.JPasswordField p1;
     private javax.swing.JLabel requestername;
     private javax.swing.JTextField t1;
