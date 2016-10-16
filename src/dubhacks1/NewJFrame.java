@@ -165,6 +165,11 @@ public class NewJFrame extends javax.swing.JFrame {
         jTextField7 = new javax.swing.JTextField();
         jLabel55 = new javax.swing.JLabel();
         jTextField16 = new javax.swing.JTextField();
+        jLabel56 = new javax.swing.JLabel();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
         jButton21 = new javax.swing.JButton();
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 204));
@@ -780,6 +785,26 @@ public class NewJFrame extends javax.swing.JFrame {
         jPanel9.add(jTextField16);
         jTextField16.setBounds(430, 370, 50, 22);
 
+        jLabel56.setText("City:");
+        jPanel9.add(jLabel56);
+        jLabel56.setBounds(140, 290, 26, 16);
+
+        jLabel57.setText(" ");
+        jPanel9.add(jLabel57);
+        jLabel57.setBounds(170, 290, 90, 20);
+
+        jLabel58.setText("Distance:");
+        jPanel9.add(jLabel58);
+        jLabel58.setBounds(330, 290, 80, 16);
+
+        jLabel59.setText("  ");
+        jPanel9.add(jLabel59);
+        jLabel59.setBounds(410, 280, 80, 30);
+
+        jLabel60.setText("miles away from you");
+        jPanel9.add(jLabel60);
+        jLabel60.setBounds(510, 290, 250, 16);
+
         javax.swing.GroupLayout f7Layout = new javax.swing.GroupLayout(f7.getContentPane());
         f7.getContentPane().setLayout(f7Layout);
         f7Layout.setHorizontalGroup(
@@ -1008,7 +1033,12 @@ f1.setVisible(true);
     private javax.swing.JLabel jLabel53;
     private javax.swing.JLabel jLabel54;
     private javax.swing.JLabel jLabel55;
+    private javax.swing.JLabel jLabel56;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
     private javax.swing.JLabel jLabel6;
+    private javax.swing.JLabel jLabel60;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
