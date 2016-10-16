@@ -787,7 +787,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel56.setText("City:");
         jPanel9.add(jLabel56);
-        jLabel56.setBounds(140, 290, 26, 16);
+        jLabel56.setBounds(140, 290, 23, 14);
 
         jLabel57.setText(" ");
         jPanel9.add(jLabel57);
@@ -795,7 +795,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel58.setText("Distance:");
         jPanel9.add(jLabel58);
-        jLabel58.setBounds(330, 290, 80, 16);
+        jLabel58.setBounds(330, 290, 80, 14);
 
         jLabel59.setText("  ");
         jPanel9.add(jLabel59);
@@ -803,7 +803,7 @@ public class NewJFrame extends javax.swing.JFrame {
 
         jLabel60.setText("miles away from you");
         jPanel9.add(jLabel60);
-        jLabel60.setBounds(510, 290, 250, 16);
+        jLabel60.setBounds(510, 290, 250, 14);
 
         javax.swing.GroupLayout f7Layout = new javax.swing.GroupLayout(f7.getContentPane());
         f7.getContentPane().setLayout(f7Layout);
@@ -874,8 +874,8 @@ public class NewJFrame extends javax.swing.JFrame {
           ResultSet rs =stmt.executeQuery(s);
           if(rs.next())
           {
-              JOptionPane.showMessageDialog(null,"welcome");
-              f2.dispose();
+              JOptionPane.showMessageDialog(null,"boooo");
+              f1.dispose();
               f3.setExtendedState(f1.getExtendedState()|NewJFrame.MAXIMIZED_BOTH);
               f3.setVisible(true);
           }
